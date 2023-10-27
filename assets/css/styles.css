@@ -1,0 +1,12 @@
+:root{
+    --red: red;
+    --azul:  ;
+    --naranja: ;
+    --verde:  ;
+    --gris:  ;
+
+}
+
+h1{
+    color:var(--red);
+}
