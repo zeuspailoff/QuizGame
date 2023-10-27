@@ -18,15 +18,17 @@ header{
     justify-content: center;
     align-items: center;
     width: 100vw;
+    height: 5em;
     flex-direction: row;
    
 }
 .navegador{
     background-color: var(--gris);
     width: 100vw;
+    height: 100%;
     flex-direction: row;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 .logo{
     display: flex;
@@ -42,16 +44,34 @@ header{
     padding: 0;
     display: flex;
     justify-content: flex-start;
+    width: 10em;
 }
-.menu{
+ul.menu{
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    width: 50vw;
+    width: 50em;
     flex-direction: row;
-    gap: 30px;
-    color: var(--verde);
+    gap: 5em;
     list-style: none;
+    padding: 0;
+    margin: 0;
     
    
+}
+li.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    
+}
+
+a.link-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--naranja);
+    text-decoration: none;
 }
