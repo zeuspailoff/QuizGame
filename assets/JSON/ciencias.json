@@ -1,0 +1,254 @@
+{
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el símbolo químico del oro?",
+        "opciones": ["Au", "Ag", "Fe", "Hg"],
+        "respuesta_correcta": "Au"
+      },
+      {
+        "pregunta": "¿Cuál es el proceso mediante el cual las plantas convierten la luz solar en energía?",
+        "opciones": ["Fotosíntesis", "Respiración", "Fermentación", "Digestión"],
+        "respuesta_correcta": "Fotosíntesis"
+      },
+      {
+        "pregunta": "¿Cuál es el hueso más largo del cuerpo humano?",
+        "opciones": ["Húmero", "Fémur", "Tibia", "Radio"],
+        "respuesta_correcta": "Fémur"
+      },
+      {
+        "pregunta": "¿Cuál es la unidad básica de estructura y función en los seres vivos?",
+        "opciones": ["Célula", "Átomo", "Molécula", "Organelo"],
+        "respuesta_correcta": "Célula"
+      },
+      {
+        "pregunta": "¿Cuál es el gas más abundante en la atmósfera terrestre?",
+        "opciones": ["Nitrógeno", "Oxígeno", "Dióxido de carbono", "Argón"],
+        "respuesta_correcta": "Nitrógeno"
+      },
+      {
+        "pregunta": "¿Cuál es el elemento más abundante en la corteza terrestre?",
+        "opciones": ["Oxígeno", "Silicio", "Aluminio", "Hierro"],
+        "respuesta_correcta": "Oxígeno"
+      },
+      {
+        "pregunta": "¿Cuál es el proceso por el cual los organismos vivos obtienen energía de los alimentos?",
+        "opciones": ["Fotosíntesis", "Digestión", "Respiración celular", "Fermentación"],
+        "respuesta_correcta": "Respiración celular"
+      },
+      {
+        "pregunta": "¿Cuál es el planeta más grande del sistema solar?",
+        "opciones": ["Tierra", "Marte", "Júpiter", "Venus"],
+        "respuesta_correcta": "Júpiter"
+      },
+      {
+        "pregunta": "¿Cuál es el componente principal del aire?",
+        "opciones": ["Nitrógeno", "Oxígeno", "Dióxido de carbono", "Argón"],
+        "respuesta_correcta": "Nitrógeno"
+      },
+      {
+        "pregunta": "¿Cuál es la parte del ojo que permite ver los colores?",
+        "opciones": ["Córnea", "Iris", "Retina", "Pupila"],
+        "respuesta_correcta": "Retina"
+      },
+      {
+        "pregunta": "¿Cuál es el órgano humano más grande?",
+        "opciones": ["Hígado", "Cerebro", "Piel", "Estómago"],
+        "respuesta_correcta": "Piel"
+      },
+      {
+        "pregunta": "¿Cuál es el proceso por el cual las plantas liberan agua al medio ambiente?",
+        "opciones": ["Transpiración", "Evaporación", "Condensación", "Fotosíntesis"],
+        "respuesta_correcta": "Transpiración"
+      },
+      {
+        "pregunta": "¿Cuál es el ácido presente en los limones y otras frutas cítricas?",
+        "opciones": ["Ácido acético", "Ácido cítrico", "Ácido sulfúrico", "Ácido láctico"],
+        "respuesta_correcta": "Ácido cítrico"
+      },
+      {
+        "pregunta": "¿Cuál es el hueso que protege el cerebro?",
+        "opciones": ["Húmero", "Cráneo", "Fémur", "Costilla"],
+        "respuesta_correcta": "Cráneo"
+      },
+      {
+        "pregunta": "¿Cuál es la capa más externa de la Tierra?",
+        "opciones": ["Núcleo", "Manto", "Corteza", "Magma"],
+        "respuesta_correcta": "Corteza"
+      },
+      {
+        "pregunta": "¿Cuál es el proceso por el cual las plantas convierten la luz solar en energía?",
+        "opciones": ["Respiración", "Transpiración", "Fotosíntesis", "Digestión"],
+        "respuesta_correcta": "Fotosíntesis"
+      },
+      {
+        "pregunta": "¿Cuál es el proceso de cambio de estado de un líquido a gas?",
+        "opciones": ["Ebullición", "Condensación", "Evaporación", "Solidificación"],
+        "respuesta_correcta": "Evaporación"
+      },
+      {
+        "pregunta": "¿Cuál es el proceso por el cual los seres vivos obtienen oxígeno del aire?",
+        "opciones": ["Fotosíntesis", "Respiración celular", "Digestión", "Fermentación"],
+        "respuesta_correcta": "Respiración celular"
+      },
+      {
+        "pregunta": "¿Cuál es el órgano responsable de producir la insulina en el cuerpo humano?",
+        "opciones": ["Páncreas", "Hígado", "Riñón", "Corazón"],
+        "respuesta_correcta": "Páncreas"
+      },
+      {
+        "pregunta": "¿Cuál es el componente principal del sistema nervioso central?",
+        "opciones": ["Neuronas", "Vasos sanguíneos", "Huesos", "Glándulas"],
+        "respuesta_correcta": "Neuronas"
+      },
+      {
+        "pregunta": "¿Cuál es el gas que las plantas utilizan en la fotosíntesis?",
+        "opciones": ["Nitrógeno", "Oxígeno", "Dióxido de carbono", "Hidrógeno"],
+        "respuesta_correcta": "Dióxido de carbono"
+      },
+      {
+        "pregunta": "¿Cuál es el proceso por el cual los seres vivos obtienen energía de los alimentos en ausencia de oxígeno?",
+        "opciones": ["Fotosíntesis", "Digestión", "Respiración celular", "Fermentación"],
+        "respuesta_correcta": "Fermentación"
+      },
+      {
+        "pregunta": "¿Cuál es el metal más ligero y abundante en la corteza terrestre?",
+        "opciones": ["Oro", "Plata", "Aluminio", "Hierro"],
+        "respuesta_correcta": "Aluminio"
+      },
+      {
+        "pregunta": "¿Cuál es la unidad básica de los ácidos nucleicos como el ADN?",
+        "opciones": ["Aminoácido", "Nucleótido", "Glucosa", "Vitamina"],
+        "respuesta_correcta": "Nucleótido"
+      }, 
+      {
+        "pregunta": "¿Cuál es el gas responsable del efecto invernadero en la atmósfera terrestre?",
+        "opciones": ["Oxígeno", "Dióxido de carbono", "Nitrógeno", "Metano"],
+        "respuesta_correcta": "Dióxido de carbono"
+      },
+      {
+        "pregunta": "¿Cuál es el proceso de conversión de un gas a líquido?",
+        "opciones": ["Ebullición", "Condensación", "Solidificación", "Sublimación"],
+        "respuesta_correcta": "Condensación"
+      },
+      {
+        "pregunta": "¿Cuál es el hueso más pequeño en el cuerpo humano?",
+        "opciones": ["Estribo", "Fémur", "Cráneo", "Costilla"],
+        "respuesta_correcta": "Estribo"
+      },
+      {
+        "pregunta": "¿Cuál es el órgano encargado de producir la bilis?",
+        "opciones": ["Hígado", "Riñón", "Páncreas", "Vesícula biliar"],
+        "respuesta_correcta": "Hígado"
+      },
+      {
+        "pregunta": "¿Cuál es el planeta más cercano al Sol en nuestro sistema solar?",
+        "opciones": ["Venus", "Mercurio", "Tierra", "Marte"],
+        "respuesta_correcta": "Mercurio"
+      },
+      {
+        "pregunta": "¿Cuál es la sustancia responsable de la acidez en los limones y otros cítricos?",
+        "opciones": ["Ácido acético", "Ácido cítrico", "Ácido sulfúrico", "Ácido láctico"],
+        "respuesta_correcta": "Ácido cítrico"
+      },
+      {
+        "pregunta": "¿Cuál es el proceso por el cual un organismo pasa por diferentes etapas de desarrollo?",
+        "opciones": ["Metamorfosis", "Evolución", "Reproducción", "Mutación"],
+        "respuesta_correcta": "Metamorfosis"
+      },
+      {
+        "pregunta": "¿Cuál es la enzima responsable de descomponer los lípidos en el sistema digestivo?",
+        "opciones": ["Lipasa", "Amilasa", "Pepsina", "Tripsina"],
+        "respuesta_correcta": "Lipasa"
+      },
+      {
+        "pregunta": "¿Cuál es el gas que las plantas liberan durante la fotosíntesis?",
+        "opciones": ["Oxígeno", "Dióxido de carbono", "Nitrógeno", "Hidrógeno"],
+        "respuesta_correcta": "Oxígeno"
+      },
+      {
+        "pregunta": "¿Cuál es el proceso de cambio de estado de un gas a líquido?",
+        "opciones": ["Condensación", "Ebullición", "Evaporación", "Solidificación"],
+        "respuesta_correcta": "Condensación"
+      },
+      {
+        "pregunta": "¿Cuál es la unidad básica de la herencia genética?",
+        "opciones": ["Gen", "Cromosoma", "Ácido nucleico", "Mutación"],
+        "respuesta_correcta": "Gen"
+      },
+      {
+        "pregunta": "¿Cuál es el proceso por el cual los organismos vivos obtienen energía de los alimentos?",
+        "opciones": ["Digestión", "Respiración celular", "Fotosíntesis", "Fermentación"],
+        "respuesta_correcta": "Respiración celular"
+      },
+      {
+        "pregunta": "¿Cuál es el ácido presente en el estómago humano?",
+        "opciones": ["Ácido acético", "Ácido clorhídrico", "Ácido sulfúrico", "Ácido láctico"],
+        "respuesta_correcta": "Ácido clorhídrico"
+      },
+      {
+        "pregunta": "¿Cuál es el proceso por el cual las plantas convierten la luz solar en energía?",
+        "opciones": ["Fotosíntesis", "Respiración", "Transpiración", "Digestión"],
+        "respuesta_correcta": "Fotosíntesis"
+      },
+      {
+        "pregunta": "¿Cuál es la capa más interna de la piel?",
+        "opciones": ["Epidermis", "Dermis", "Hipodermis", "Cutícula"],
+        "respuesta_correcta": "Epidermis"
+      },
+      {
+        "pregunta": "¿Cuál es el proceso de cambio de estado de un sólido a gas sin pasar por el estado líquido?",
+        "opciones": ["Sublimación", "Fusión", "Evaporación", "Solidificación"],
+        "respuesta_correcta": "Sublimación"
+      },
+      {
+        "pregunta": "¿Cuál es el componente principal del sistema nervioso periférico?",
+        "opciones": ["Neuronas", "Glándulas", "Huesos", "Vasos sanguíneos"],
+        "respuesta_correcta": "Neuronas"
+      },
+      {
+        "pregunta": "¿Cuál es el proceso de formación de nuevas células?",
+        "opciones": ["Mitosis", "Meiosis", "Fotosíntesis", "Digestión"],
+        "respuesta_correcta": "Mitosis"
+      },
+      {
+        "pregunta": "¿Cuál es el gas utilizado comúnmente en las luces de neón?",
+        "opciones": ["Neón", "Argón", "Xenón", "Kriptón"],
+        "respuesta_correcta": "Neón"
+      },
+      {
+        "pregunta": "¿Cuál es la vitamina que se produce en la piel cuando se expone al sol?",
+        "opciones": ["Vitamina A", "Vitamina C", "Vitamina D", "Vitamina K"],
+        "respuesta_correcta": "Vitamina D"
+      },
+      {
+        "pregunta": "¿Cuál es la célula reproductora masculina?",
+        "opciones": ["Óvulo", "Espermatozoide", "Gameto", "Cigoto"],
+        "respuesta_correcta": "Espermatozoide"
+      },
+      {
+        "pregunta": "¿Cuál es el proceso de transformación de un gas a estado líquido debido a la disminución de temperatura?",
+        "opciones": ["Condensación", "Ebullición", "Evaporación", "Sublimación"],
+        "respuesta_correcta": "Condensación"
+      },
+      {
+        "pregunta": "¿Cuál es el proceso por el cual los organismos obtienen energía de los alimentos en ausencia de oxígeno?",
+        "opciones": ["Fotosíntesis", "Digestión", "Respiración celular", "Fermentación"],
+        "respuesta_correcta": "Fermentación"
+      },
+      {
+        "pregunta": "¿Cuál es el proceso de división celular que da lugar a células sexuales?",
+        "opciones": ["Mitosis", "Meiosis", "Fotosíntesis", "Digestión"],
+        "respuesta_correcta": "Meiosis"
+      },
+      {
+        "pregunta": "¿Cuál es el proceso de conversión de un sólido directamente a gas sin pasar por el estado líquido?",
+        "opciones": ["Sublimación", "Evaporación", "Condensación", "Fusión"],
+        "respuesta_correcta": "Sublimación"
+      },
+      {
+        "pregunta": "¿Cuál es el proceso por el cual las plantas absorben agua y nutrientes del suelo?",
+        "opciones": ["Fotosíntesis", "Transpiración", "Absorción radicular", "Ebullición"],
+        "respuesta_correcta": "Absorción radicular"
+      }
+    ]
+  }
