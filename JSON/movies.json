@@ -1,4 +1,5 @@
-[
+{
+  "preguntas": [
     {
       "pregunta": "¿Quién es el director de la película 'Pulp Fiction'?",
       "opciones": ["Quentin Tarantino", "Martin Scorsese", "Steven Spielberg", "Christopher Nolan"],
@@ -220,4 +221,4 @@
       "respuesta_correcta": "My Neighbor Totoro"
     }
   ]
-  
+}

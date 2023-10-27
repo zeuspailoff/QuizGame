@@ -1,4 +1,5 @@
-[
+{
+    "preguntas": [
     {
         "pregunta": "¿Quién es conocido como el Rey del Pop?",
         "opciones": ["Michael Jackson", "Elvis Presley", "Madonna", "Prince"],
@@ -430,3 +431,4 @@
         "respuesta_correcta": "Bohemian Rhapsody"
     }
 ]
+}

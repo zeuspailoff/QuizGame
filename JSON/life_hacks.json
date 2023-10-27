@@ -1,4 +1,5 @@
-[
+    {
+        "preguntas": [
     {
         "pregunta": "¿Cuál es un truco para enfriar rápidamente una bebida sin usar hielo?",
         "opciones": ["Meterla en un recipiente con agua y sal", "Agitarla fuertemente", "Soplarle aire con un secador de pelo", "Enterrarla en la arena"],
@@ -145,3 +146,4 @@
         "respuesta_correcta": "Calentar la etiqueta con un secador de pelo"
     }
 ]
+    }
