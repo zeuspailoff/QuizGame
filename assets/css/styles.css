@@ -7,6 +7,48 @@
 
 }
 
-h1{
-    color:var(--red);
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    flex-direction: row;
+   
+}
+.navegador{
+    width: 100vw;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    width: 100%;
+    flex-direction: row;
+    padding: 0;
+    
+}
+.aling-logo{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 50vw;
+    flex-direction: row;
+    gap: 30px;
+    
+   
 }
