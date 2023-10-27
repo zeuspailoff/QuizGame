@@ -1,9 +1,9 @@
 :root{
-    --red: red;
-    --azul:  ;
-    --naranja: ;
-    --verde:  ;
-    --gris:  ;
+    --red: rgba(222,11,4,255);
+    --azul: rgba(0,144,198,255) ;
+    --naranja: rgba(251,141,4,255) ;
+    --verde:  rgba(47,186,0,255) ;
+    --gris: rgba(12,27,46,255) ;
 
 }
 
@@ -22,6 +22,7 @@ header{
    
 }
 .navegador{
+    background-color: var(--gris);
     width: 100vw;
     flex-direction: row;
     display: flex;
@@ -49,6 +50,8 @@ header{
     width: 50vw;
     flex-direction: row;
     gap: 30px;
+    color: var(--verde);
+    list-style: none;
     
    
 }
