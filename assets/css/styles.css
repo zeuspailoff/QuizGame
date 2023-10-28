@@ -49,8 +49,11 @@ header{
 
 
 #logo {
-    width: 5em;
-    height: 4em;
+    width: 8em;
+    height: 9em;
+    margin-left: -43px;
+    margin-top: 16px;
+    list-style: none;
 }
 
 .aling-logo{
@@ -81,7 +84,7 @@ li.menu{
     align-items: center;
     height: 100%;
     width: 100%;
-
+    text-decoration: none;
 }
 
 
@@ -109,22 +112,62 @@ main.principal{
 }
 
 .cuadrado {
-    width: 100px; 
-    height: 100px; 
+    width: 15em;
+    height: 9em;
     background-color:var(--rosa); 
     border: 2px solid #ffffff; 
     border-radius: 10px; 
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 10em;
+    margin-top: 6em;
+    gap: 0;
 }
+
+/* Cuadrados separados */
+.cuadrado:nth-child(1) {
+    background-image: url('/assets/recourses/img/categorias/musica.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.cuadrado:nth-child(2) {
+    background-image: url('/assets/recourses/img/categorias/cine.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.cuadrado:nth-child(3) {
+    background-image: url('/assets/recourses/img/categorias/ciencia.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.cuadrado:nth-child(4) {
+    background-image: url('/assets/recourses/img/categorias/cultura.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.cuadrado:nth-child(5) {
+    background-image: url('/assets/recourses/img/categorias/deportes.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.cuadrado:nth-child(6) {
+    background-image: url('/assets/recourses/img/categorias/lifehacks.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
 /* targetas pagina de contacto */
 .alinear{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5em;
+    gap: 2em
 }
 
 .foto-perfil{
