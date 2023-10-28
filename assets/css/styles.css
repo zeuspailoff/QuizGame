@@ -168,6 +168,9 @@ section.contacto{
     align-content: center;
     
 }
+.texto-contacto{
+    font-size: 1.5em;
+}
 
 .description{
     margin: 2em;
@@ -177,7 +180,7 @@ section.contacto{
 footer {
     height: 5em;
     background-color: var(--negro);
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
   }
