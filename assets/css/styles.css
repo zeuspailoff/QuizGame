@@ -97,3 +97,19 @@ a.link-menu:hover {
     background-color:var(--sombreadoHover);
     text-decoration: underline;
 }
+
+/* targetas pagina de contacto */
+
+.targeta{
+    border: 2px solid;
+    
+}
+main.contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulo-contacto{
+    align-items: center;
+    justify-content: center;
+}
