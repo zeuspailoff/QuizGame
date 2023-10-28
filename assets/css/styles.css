@@ -53,8 +53,11 @@ header{
     height: 9em;
     margin-left: -43px;
     margin-top: 16px;
+    text-decoration: none;
     list-style: none;
+    
 }
+
 
 .aling-logo{
     margin: 0;
@@ -118,21 +121,28 @@ section.principal{
     
    
 }
+h2.titulo{
+    font-size: 3em;
+    margin: 0;
+    padding: 0;
+    
+    
+}
 
 
 article.description-principal{
     margin: 5em;
-    font-size: large;
+    font-size: 2em;
+    
 
 }
 
 .cuadrado {
-    
-
-    height: 9em;
-
-    
-
+    width: 15em;
+    height: 15em;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
     background-color:var(--rosa); 
     border: 2px solid #ffffff; 
     border-radius: 10px; 
@@ -146,39 +156,27 @@ article.description-principal{
 /* Cuadrados separados */
 .cuadrado:nth-child(1) {
     background-image: url('/assets/recourses/img/categorias/musica.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+   
 }
 .cuadrado:nth-child(2) {
     background-image: url('/assets/recourses/img/categorias/cine.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+    
 }
 .cuadrado:nth-child(3) {
     background-image: url('/assets/recourses/img/categorias/ciencia.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+    
 }
 .cuadrado:nth-child(4) {
     background-image: url('/assets/recourses/img/categorias/cultura.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+   
 }
 .cuadrado:nth-child(5) {
     background-image: url('/assets/recourses/img/categorias/deportes.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+    
 }
 .cuadrado:nth-child(6) {
     background-image: url('/assets/recourses/img/categorias/lifehacks.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+    
 }
 
 /* targetas pagina de contacto */
@@ -199,7 +197,14 @@ article.description-principal{
     border: 2px solid;
     border-radius: 5%;
     overflow: hidden;
+    background-color: var(--blanco);
     
+}
+.contenido-contacto{
+    border: 2px solid;
+    background-color: var(--blanco);
+    border-radius: 20px;
+
 }
 section.contacto{
     display: flex;
@@ -216,6 +221,11 @@ section.contacto{
     
 }
 .texto-contacto{
+    font-size: 2em;
+    margin-left: 1em;
+}
+.contenido-texto-contacto{
+    margin-left: 2.5em;
     font-size: 1.5em;
 }
 
@@ -227,7 +237,26 @@ section.contacto{
 footer {
     height: 5em;
     background-color: var(--negro);
-    position: relative;
+    position: absolute;
     bottom: 0;
     width: 100%;
   }
+  footer.index-footer {
+    height: 5em;
+    background-color: var(--negro);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: var(--blanco);
+    text-align: center;
+  }
+ a.Hack{
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 2em;
+    width: 100%;
+    height: 100%;
+ }
+ a.Hack:hover{
+   background-color: var(--sombreadoHover);
+ }
