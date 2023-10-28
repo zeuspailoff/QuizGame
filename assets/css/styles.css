@@ -100,16 +100,19 @@ a.link-menu:hover {
 
 /* targetas pagina de contacto */
 
+.foto-perfil{
+    width: 20em;
+    height: 20em;
+}
+
 .targeta{
     border: 2px solid;
     border-radius: 5%;
     
-    
-    
 }
 main.contacto{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     gap: 10px;
 }
