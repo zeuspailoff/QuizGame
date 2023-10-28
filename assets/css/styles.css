@@ -5,6 +5,10 @@
     --verde:  rgba(47,186,0,255) ;
     --gris: rgba(12,27,46,255) ;
     --sombreadoHover: rgba(247,242,242,0.2);
+    --negro: black;
+    --rosa: #e8bdd9;
+    --verde-flojo: rgb(199, 239, 226);
+    --blanco: white;
 
 }
 
@@ -13,7 +17,8 @@ body{
     margin: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(199, 239, 226);
+    background-color:var(--verde-flojo);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
 }
 
 header{
@@ -27,7 +32,7 @@ header{
 }
 /*Barra de navegacion*/
 .navegador{
-    background-color: black;
+    background-color:var(--negro);
     width: 100vw;
     height: 100%;
     flex-direction: row;
@@ -85,7 +90,7 @@ a.link-menu{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color:var(--blanco);
     text-decoration: none;
     width: 5em;
     height: 5em;
@@ -95,21 +100,24 @@ a.link-menu:hover {
     background-color:var(--sombreadoHover);
     text-decoration: underline;
 }
-
+/*main del elemento index*/
 main {
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
-    color: white;
+        color: var(--blanco);
+}
+main.principal{
+    
 }
 
 .cuadrado {
     width: 100px; 
     height: 100px; 
-    background-color: #e8bdd9; 
+    background-color:var(--rosa); 
     border: 2px solid #ffffff; 
     border-radius: 10px; 
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-top: 10em;
 }
 /* targetas pagina de contacto */
 .alinear{
@@ -147,5 +155,14 @@ section.contacto{
 }
 
 .description{
-    margin-right: 1em;
+    margin: 2em;
+    
 }
+/*footer */
+footer {
+    height: 5em;
+    background-color: var(--negro);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
