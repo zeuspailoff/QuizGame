@@ -178,6 +178,17 @@ article.description-principal{
     background-image: url('/assets/recourses/img/categorias/lifehacks.png');
     
 }
+.containner-Juega{
+    width: 100vw;
+}
+button.Juega{
+    background-color: var(--rojo);
+    color: var(--blanco);
+    border-radius: 20px;
+    margin-bottom: ;
+    width: 20em;
+    height: 5em;
+}
 
 /* targetas pagina de contacto */
 .alinear{
@@ -227,6 +238,7 @@ section.contacto{
 .contenido-texto-contacto{
     margin-left: 2.5em;
     font-size: 1.5em;
+    margin-bottom: 2em;
 }
 
 .description{
@@ -237,14 +249,14 @@ section.contacto{
 footer {
     height: 5em;
     background-color: var(--negro);
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
   }
   footer.index-footer {
     height: 5em;
     background-color: var(--negro);
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
     color: var(--blanco);
