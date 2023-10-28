@@ -131,7 +131,7 @@ h2.titulo{
 
 
 article.description-principal{
-    margin: 5em;
+    margin: 3em;
     font-size: 2em;
     
 
@@ -180,14 +180,16 @@ article.description-principal{
 }
 .containner-Juega{
     width: 100vw;
+    margin-bottom: 4.8em;
+   
 }
 button.Juega{
     background-color: var(--rojo);
     color: var(--blanco);
     border-radius: 20px;
-    margin-bottom: ;
     width: 20em;
     height: 5em;
+    font-size: 2em;
 }
 
 /* targetas pagina de contacto */
@@ -246,21 +248,16 @@ section.contacto{
     
 }
 /*footer */
-footer {
+
+  
+  footer {
     height: 5em;
     background-color: var(--negro);
-    position: relative;
-    bottom: 0;
-    width: 100%;
-  }
-  footer.index-footer {
-    height: 5em;
-    background-color: var(--negro);
-    position: relative;
     bottom: 0;
     width: 100%;
     color: var(--blanco);
     text-align: center;
+    margin-bottom: 0;
   }
  a.Hack{
     color: var(--blanco);
