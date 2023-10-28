@@ -100,9 +100,12 @@ a.link-menu:hover {
     background-color:var(--sombreadoHover);
     text-decoration: underline;
 }
-
+/*main del elemento index*/
 main {
         color: var(--blanco);
+}
+main.principal{
+    
 }
 
 .cuadrado {
@@ -114,6 +117,7 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-top: 10em;
 }
 /* targetas pagina de contacto */
 .alinear{
