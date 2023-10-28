@@ -197,7 +197,14 @@ article.description-principal{
     border: 2px solid;
     border-radius: 5%;
     overflow: hidden;
+    background-color: var(--blanco);
     
+}
+.contenido-contacto{
+    border: 2px solid;
+    background-color: var(--blanco);
+    border-radius: 20px;
+
 }
 section.contacto{
     display: flex;
@@ -214,6 +221,11 @@ section.contacto{
     
 }
 .texto-contacto{
+    font-size: 2em;
+    margin-left: 1em;
+}
+.contenido-texto-contacto{
+    margin-left: 2.5em;
     font-size: 1.5em;
 }
 
@@ -225,7 +237,7 @@ section.contacto{
 footer {
     height: 5em;
     background-color: var(--negro);
-    position: relative;
+    position: absolute;
     bottom: 0;
     width: 100%;
   }
@@ -235,4 +247,16 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
+    color: var(--blanco);
+    text-align: center;
   }
+ a.Hack{
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 2em;
+    width: 100%;
+    height: 100%;
+ }
+ a.Hack:hover{
+   background-color: var(--sombreadoHover);
+ }
