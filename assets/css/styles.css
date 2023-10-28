@@ -110,7 +110,7 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-=======
+}
 /* targetas pagina de contacto */
 .alinear{
     display: flex;
@@ -148,3 +148,4 @@ section.contacto{
 
 .description{
     margin-right: 1em;
+}
