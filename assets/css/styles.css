@@ -102,14 +102,22 @@ a.link-menu:hover {
 
 .targeta{
     border: 2px solid;
+    border-radius: 5%;
+    
+    
     
 }
 main.contacto{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px;
 }
 .titulo-contacto{
-    align-items: center;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    align-content: center;
+    
 }
+
