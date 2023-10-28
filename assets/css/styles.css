@@ -107,13 +107,32 @@ a.link-menu:hover {
 main {
         color: var(--blanco);
 }
-main.principal{
+section.principal{
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(5em, 1fr));
+    justify-items: center;
+    align-content: center;
+    margin: 5em;
+    gap: 5em;
     
+   
+}
+
+
+article.description-principal{
+    margin: 5em;
+    font-size: large;
+
 }
 
 .cuadrado {
-    width: 15em;
+    
+
     height: 9em;
+
+    
+
     background-color:var(--rosa); 
     border: 2px solid #ffffff; 
     border-radius: 10px; 
@@ -196,6 +215,9 @@ section.contacto{
     align-content: center;
     
 }
+.texto-contacto{
+    font-size: 1.5em;
+}
 
 .description{
     margin: 2em;
@@ -205,7 +227,7 @@ section.contacto{
 footer {
     height: 5em;
     background-color: var(--negro);
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
   }
