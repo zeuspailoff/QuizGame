@@ -99,22 +99,31 @@ a.link-menu:hover {
 }
 
 /* targetas pagina de contacto */
+.alinear{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+}
 
 .foto-perfil{
     width: 20em;
     height: 20em;
+    
 }
 
 .targeta{
     border: 2px solid;
     border-radius: 5%;
+    overflow: hidden;
     
 }
-main.contacto{
+section.contacto{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     gap: 10px;
+    
 }
 .titulo-contacto{
     display: flex;
@@ -122,5 +131,9 @@ main.contacto{
     align-items: center;
     align-content: center;
     
+}
+
+.description{
+    margin-right: 1em;
 }
 
