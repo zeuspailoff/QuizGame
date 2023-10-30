@@ -99,7 +99,7 @@ li.menu{
 
 a.link-menu{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     color: var(--blanco);
     text-decoration: none;
