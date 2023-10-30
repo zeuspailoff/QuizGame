@@ -38,6 +38,7 @@ header{
     flex-direction: row;
     display: flex;
     justify-content: space-between;
+    
 }
 /*Logo*/
 .logo img {
@@ -46,12 +47,20 @@ header{
     padding: 5px; 
 }
 
-
+.logo li::marker {
+    display: none;
+}
 
 #logo {
-    width: 5em;
-    height: 4em;
+    width: 8em;
+    height: 9em;
+    margin-left: -43px;
+    margin-top: 16px;
+    text-decoration: none;
+    list-style: none;
+    
 }
+
 
 .aling-logo{
     margin: 0;
@@ -71,7 +80,7 @@ ul.menu{
     gap: 2em;
     list-style: none;
     padding: 0;
-    margin: 0;
+    
 
 
 }
@@ -81,50 +90,121 @@ li.menu{
     align-items: center;
     height: 100%;
     width: 100%;
-
+    text-decoration: none;
+   
 }
 
 
 
 a.link-menu{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
-    color:var(--blanco);
+    color: var(--blanco);
     text-decoration: none;
-    width: 5em;
-    height: 5em;
+    width: 4em;
+    height: 3em;
+    font-size: 20px;
 }
 
 a.link-menu:hover {
     background-color:var(--sombreadoHover);
     text-decoration: underline;
 }
+
+li {
+    list-style: none;
+}
 /*main del elemento index*/
 main {
         color: var(--blanco);
 }
-main.principal{
+section.principal{
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(5em, 1fr));
+    justify-items: center;
+    align-content: center;
+    margin: 5em;
+    gap: 5em;
     
+   
+}
+h2.titulo{
+    font-size: 3em;
+    margin: 0;
+    padding: 0;
+}
+
+
+article.description-principal{
+    margin: 3em;
+    font-size: 2em;
+    
+
 }
 
 .cuadrado {
-    width: 100px; 
-    height: 100px; 
+    width: 14em;
+    height: 9em;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
     background-color:var(--rosa); 
     border: 2px solid #ffffff; 
     border-radius: 10px; 
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 10em;
+    margin-top: 1em;
+    gap: 0;
 }
+
+/* Cuadrados separados */
+.cuadrado:nth-child(1) {
+    background-image: url('/assets/recourses/img/categorias/musica.png');
+   
+}
+.cuadrado:nth-child(2) {
+    background-image: url('/assets/recourses/img/categorias/cine.png');
+    
+}
+.cuadrado:nth-child(3) {
+    background-image: url('/assets/recourses/img/categorias/ciencias1.png');
+    
+}
+.cuadrado:nth-child(4) {
+    background-image: url('/assets/recourses/img/categorias/cultura1.png');
+   
+}
+.cuadrado:nth-child(5) {
+    background-image: url('/assets/recourses/img/categorias/deporte1.png');
+    
+}
+.cuadrado:nth-child(6) {
+    background-image: url('/assets/recourses/img/categorias/lifehacks.png');
+    
+}
+.containner-Juega{
+    width: 100vw;
+    margin-bottom: 4.8em;
+   
+}
+button.Juega{
+    background-color: var(--rosa);
+    color: var(--blanco);
+    border-radius: 20px;
+    width: 20em;
+    height: 5em;
+    font-size: 2em;
+}
+
 /* targetas pagina de contacto */
 .alinear{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5em;
+    gap: 2em
 }
 
 .foto-perfil{
@@ -137,7 +217,14 @@ main.principal{
     border: 2px solid;
     border-radius: 5%;
     overflow: hidden;
+    background-color: var(--blanco);
     
+}
+.contenido-contacto{
+    border: 2px solid;
+    background-color: var(--blanco);
+    border-radius: 20px;
+
 }
 section.contacto{
     display: flex;
@@ -153,16 +240,108 @@ section.contacto{
     align-content: center;
     
 }
+.texto-contacto{
+    font-size: 2em;
+    margin-left: 1em;
+}
+.contenido-texto-contacto{
+    margin-left: 2.5em;
+    font-size: 1.5em;
+    margin-bottom: 2em;
+}
 
 .description{
     margin: 2em;
     
 }
 /*footer */
-footer {
+
+  
+  footer {
     height: 5em;
     background-color: var(--negro);
-    position: absolute;
     bottom: 0;
     width: 100%;
+    color: var(--blanco);
+    text-align: center;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
   }
+ a.Hack{
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 2em;
+    width: 100%;
+    height: 100%;
+ }
+ a.Hack:hover{
+   background-color: var(--sombreadoHover);
+ }
+
+ /*Media quarys para movil */
+ @media only screen and (max-width: 500px) {
+    .cuadrado {
+        width: 12em;
+        height: 7em;
+    }
+h2.titulo{
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 0;
+}
+    
+p {
+text-align: center;
+font-size: 17px;
+margin-top: 0;
+}
+
+    .texto-contacto {
+        font-size: 1.5em;
+    }
+
+    button.Juega{
+        background-color: var(--rosa);
+        color: var(--blanco);
+        border-radius: 20px;
+        width: 9em;
+        height: 2em;
+        font-size: 2em;
+    }
+
+    a.Hack{
+        color: var(--blanco);
+        text-decoration: none;
+        font-size: 50px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .foto-perfil{
+        width: 166px;
+        height: 155px;
+    }
+
+    .targeta{
+        border: 2px solid;
+        border-radius: 5%;
+        overflow: hidden;
+        background-color: var(--blanco);
+        margin-bottom: 0;
+    }
+
+    .contenido-texto-contacto{
+       font-size: 11px;
+        margin-bottom: 22px;
+    }
+
+    .alinear{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2em;
+        width: 152px;
+        height: 4em;
+    }
+ }
