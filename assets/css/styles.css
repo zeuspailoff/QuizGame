@@ -146,7 +146,7 @@ article.description-principal{
 }
 
 .cuadrado {
-    width: 14em;
+    width: 10em;
     height: 9em;
     background-repeat: no-repeat;
     background-position: center;
@@ -162,7 +162,7 @@ article.description-principal{
 }
 
 .cuadrado1 {
-    width: 14em;
+    width: 10em;
     height: 9em;
     background-repeat: no-repeat;
     background-position: center;
@@ -210,6 +210,7 @@ article.description-principal{
 }
 button.Juega{
     background-color: var(--rosa);
+    margin-bottom:10px;
     color: var(--blanco);
     border-radius: 20px;
     width: 20em;
@@ -309,6 +310,7 @@ button#name{
 
   .index-footer{
     position: fixed;
+   margin-top: 10em;
   }
   footer {
     height: 5em;
@@ -333,26 +335,12 @@ button#name{
  }
 
  /*Media quarys para moviles */
- @media (min-width: 300px) and (max-width: 600px) {
+ @media (min-width: 300px) and (max-width: 600px){ 
     .cuadrado {
         width: 12em;
         height: 7em;
         
     }
-
-<<<<<<< HEAD
-    h2.titulo {
-        text-align: center;
-        font-size: 36px;
-        margin-bottom: 0;
-    }
-
-    p {
-        text-align: center;
-        font-size: 17px;
-        margin-top: 0;
-    }
-=======
     .cuadrado1 {
         width: 12em;
         height: 7em;
@@ -395,7 +383,6 @@ text-align: center;
 font-size: 17px;
 margin-top: 0;
 }
->>>>>>> 0fb733ced1af941cca0f6110a81578473cf84806
 
     .texto-contacto {
         font-size: 1.5em;
