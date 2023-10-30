@@ -285,6 +285,10 @@ button#name{
     justify-content: end;
     align-items: end;
 }
+#bSilencio{
+    background-color: var(--verde-flojo);
+    border: none;
+}
 /*footer */
 
   .index-footer{
