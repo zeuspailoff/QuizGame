@@ -146,7 +146,7 @@ article.description-principal{
 }
 
 .cuadrado {
-    width: 14em;
+    width: 10em;
     height: 9em;
     background-repeat: no-repeat;
     background-position: center;
@@ -162,7 +162,7 @@ article.description-principal{
 }
 
 .cuadrado1 {
-    width: 14em;
+    width: 10em;
     height: 9em;
     background-repeat: no-repeat;
     background-position: center;
@@ -210,6 +210,7 @@ article.description-principal{
 }
 button.Juega{
     background-color: var(--rosa);
+    margin-bottom:10px;
     color: var(--blanco);
     border-radius: 20px;
     width: 20em;
@@ -309,6 +310,7 @@ button#name{
 
   .index-footer{
     position: fixed;
+   margin-top: 10em;
   }
   footer {
     height: 5em;
