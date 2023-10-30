@@ -215,7 +215,7 @@ button.Juega{
     
 }
 
-.tarjeta{
+.targeta{
     border: 2px solid;
     border-radius: 5%;
     overflow: hidden;
@@ -327,7 +327,7 @@ margin-top: 0;
         height: 155px;
     }
 
-    .tarjeta{
+    .targeta{
         border: 2px solid;
         border-radius: 5%;
         overflow: hidden;
