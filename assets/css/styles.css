@@ -333,26 +333,12 @@ button#name{
  }
 
  /*Media quarys para moviles */
- @media (min-width: 300px) and (max-width: 600px) {
+ @media (min-width: 300px) and (max-width: 600px){ 
     .cuadrado {
         width: 12em;
         height: 7em;
         
     }
-
-<<<<<<< HEAD
-    h2.titulo {
-        text-align: center;
-        font-size: 36px;
-        margin-bottom: 0;
-    }
-
-    p {
-        text-align: center;
-        font-size: 17px;
-        margin-top: 0;
-    }
-=======
     .cuadrado1 {
         width: 12em;
         height: 7em;
@@ -395,7 +381,6 @@ text-align: center;
 font-size: 17px;
 margin-top: 0;
 }
->>>>>>> 0fb733ced1af941cca0f6110a81578473cf84806
 
     .texto-contacto {
         font-size: 1.5em;
