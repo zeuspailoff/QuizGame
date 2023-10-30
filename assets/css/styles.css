@@ -258,7 +258,9 @@ section.contacto{
 }
 /*footer */
 
-  
+  .index-footer{
+    position: fixed;
+  }
   footer {
     height: 5em;
     background-color: var(--negro);
