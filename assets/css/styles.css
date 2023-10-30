@@ -256,6 +256,35 @@ section.contacto{
     margin: 2em;
     
 }
+
+/* html nombres */
+main.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 45rem;
+}
+input.name{
+    border-radius: 10px;
+    width: 30em;
+    height: 2em;
+
+}
+.enviar-form{
+    text-align: center;
+}
+button#name{
+    background-color: var(--rosa);
+    margin-top: 1em;
+    border-radius: 10px;
+    width: 8em;
+}
+.audio{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
 /*footer */
 
   .index-footer{

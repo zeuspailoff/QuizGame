@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -37,11 +37,27 @@
             </ul>
         </nav>
     </header>
+    <section class="audio">
+        <audio id="audioFondo" src="../sonidos/Neon Lights.mp3" autoplay loop></audio>
+        <button id="bSilencio" onclick="toggleMuted()"><img src="../recourses/icons/icons8-silencio-48.png"
+                alt=""></button>
+
+    </section>
+    <main class="alinear form">
+        <form action="submit">
+            <div>
+                <input class="name" type="text" id="name" placeholder="Pon tu nombre aqui ">
+            </div>
+            <div class="enviar-form">
+                <button id="name" type="submit">Enviar</button>
+            </div>
+        </form>
+    </main>
 
     <footer class="index-footer">
         <p><a class="Hack" href="https://www.hackaboss.com/">Hack a Boss</a></p>
     </footer>
-
+    <script src="../js/sonido.js"></script>
 </body>
 
 </html>
