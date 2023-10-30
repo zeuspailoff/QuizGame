@@ -161,6 +161,22 @@ article.description-principal{
     gap: 0;
 }
 
+.cuadrado1 {
+    width: 14em;
+    height: 9em;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color:var(--rosa); 
+    border: 2px solid #ffffff; 
+    border-radius: 10px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 1em;
+    gap: 0;
+}
+
 /* Cuadrados separados */
 .cuadrado:nth-child(1) {
     background-image: url('/assets/recourses/img/categorias/musica.png');
@@ -174,16 +190,16 @@ article.description-principal{
     background-image: url('/assets/recourses/img/categorias/ciencias1.png');
     background-color:var(--azul);
 }
-.cuadrado:nth-child(4) {
+.cuadrado1:nth-child(1) {
     background-image: url('/assets/recourses/img/categorias/cultura1.png');
     background-color:var(--verde);
    
 }
-.cuadrado:nth-child(5) {
+.cuadrado1:nth-child(2) {
     background-image: url('/assets/recourses/img/categorias/deporte1.png');
     background-color:var(--rojo);
 }
-.cuadrado:nth-child(6) {
+.cuadrado1:nth-child(3) {
     background-image: url('/assets/recourses/img/categorias/lifehacks.png');
     background-color:var(--gris);
 }
@@ -288,7 +304,15 @@ section.contacto{
     .cuadrado {
         width: 12em;
         height: 7em;
+        
     }
+
+    .cuadrado1 {
+        width: 12em;
+        height: 7em;
+        
+    }
+
 h2.titulo{
     text-align: center;
     font-size: 36px;
