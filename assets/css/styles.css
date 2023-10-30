@@ -181,6 +181,7 @@ article.description-principal{
 .cuadrado:nth-child(1) {
     background-image: url('/assets/recourses/img/categorias/musica.png');
     background-color:var(--naranja);
+    
 }
 .cuadrado:nth-child(2) {
     background-image: url('/assets/recourses/img/categorias/cine.png');
@@ -341,7 +342,7 @@ button#name{
         height: 7em;
         
     }
-    
+
     .cuadrado:nth-child(1) {
         background-image: url('/assets/recourses/img/categorias/musica.png');
         background-color:var(--naranja);
