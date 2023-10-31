@@ -330,10 +330,18 @@ button#name{
     text-decoration: none;
     font-size: 2em;
     width: 100%;
-    height: 100%;
+    height: 25px;
+    border: 0;
+    margin-bottom: 0;
  }
  a.Hack:hover{
    background-color: var(--sombreadoHover);
+ }
+ p.pfooter {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--blanco);
+    text-align: center;
  }
 
  /*Media quarys para moviles */
@@ -440,18 +448,22 @@ img {
 /* Apartado de Preguntas */
 .contenedorPreguntas {
     width: 98vh;
-    height: 97vh;
+    height: 45vh;
     display: inline-flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 .encabezadoPreguntas {
-    background-color: white;
+    position: relative;
+    background: #fafafa;
     min-width: 300px;
     width: 70%;
+    max-width: 600px;
     padding: 10px;
+    color: var(--rosa);
 }
 
 .categoriaPregunta {
@@ -464,11 +476,23 @@ img {
 }
 
 .botonPregunta {
-    background-color: white;
+    background: var(--rosa);
+    color: #fff;
     width: 60%;
+    max-width: 550px;
     padding: 10px;
     margin: 5px;
+    cursor: pointer;
+    margin-left: 37vh;
+    padding: 17px;
+   
 }
+
+.botonPregunta:hover {
+    transform: scale(1.05);
+    background-color: var(--negro);
+    transition: 1s;
+  }
 
 .imagenPregunta {
     object-fit: cover;
