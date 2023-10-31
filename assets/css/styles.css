@@ -226,6 +226,7 @@ button.Juega{
 .foto-perfil{
     width: 20em;
     height: 20em;
+    object-fit:cover;
     
 }
 

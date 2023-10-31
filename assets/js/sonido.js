@@ -1,15 +1,27 @@
+"use strict"
+
 let audioFondo = document.getElementById('audioFondo');
-let bSilencio = document.getElementById('Bsilencio');
-const imgSilencio = '<img src="../recourses/icons/icons8-silencio-48.png"alt="emoji boca tapada">';
-const imgSonido = ' <img src="../recourses/icons/icons8-boca-abierta-48.png" alt="emoji boca abierta ">'
+let bSilencio = document.querySelector('#bSilencio');
+let imgElementSilencio = document.querySelector('#bSilencio img');
+const imgSilencio = "../recourses/icons/icons8-silencio-48.png";
+const imgSonido = "../recourses/icons/icons8-boca-abierta-48.png"
 
 function toggleMuted(){
     if(audioFondo.muted){
-        audioFondo.muted = false;
-
-        bSilencio.innerHTML = imgSilencio;
+        //coloccamos el setTimeout por problema de asincronia para ponerlo en cola
+        setTimeout(()=>{
+            audioFondo.muted = false;
+            
+        }, 0)
+        imgElementSilencio.setAttribute("src", imgSonido )
     }else {
-        audioFondo.muted = true;
-        bSilencio.innerHTML = imgSonido;
+        setTimeout(()=>{
+            audioFondo.muted = true;
+        }, 0)
+        imgElementSilencio.setAttribute("src", imgSilencio )
     }
 }
+
+console.log(bSilencio)
+
+bSilencio.addEventListener("click", toggleMuted)
