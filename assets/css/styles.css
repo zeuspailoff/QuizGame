@@ -281,7 +281,7 @@ main.form{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 45rem;
+    height: 20rem;
 }
 input.name{
     border-radius: 10px;
