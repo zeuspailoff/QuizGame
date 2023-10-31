@@ -455,6 +455,51 @@ img {
     height: 13px;
 }
 }
+/* Medias para tablets */
+@media (min-width: 500px) and (max-width: 800px){
+    .foto-perfil {
+        width: 10em;
+        height: 10em;
+    }
+
+    .targeta {
+        width: 10em;
+        height: 22em;
+    }
+
+    .contenido-texto-contacto {
+        font-size: 11px;
+        margin-bottom: 8px;
+        margin-left: 0.5em;
+        
+        
+    }
+    .contenido-contacto {
+        width: 97%;
+        margin-left: 4px;
+        margin-bottom: 5em;
+    }
+    .alinear {
+        justify-content: center;
+        align-items: center;
+        gap: 2em;
+        height: 4em
+}
+}
+/* Medias para portatiles y monitores */
+@media (min-width: 800px) and (max-width: 2560px){
+    .foto-perfil {
+        width: 12em;
+        height: 11em;
+    }
+
+    .targeta {
+        width: 12em;
+        height: 22em;
+    }
+
+}
+
 
 /* Apartado de Preguntas */
 .contenedorPreguntas {
