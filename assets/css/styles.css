@@ -54,13 +54,8 @@ header{
 }
 
 #logo {
-    width: 8em;
-    height: 9em;
     margin-left: -43px;
     margin-top: 16px;
-    text-decoration: none;
-    list-style: none;
-    
 }
 
 
@@ -267,8 +262,6 @@ section.contacto{
 }
 .contenido-texto-contacto{
     margin-left: 2.5em;
-    font-size: 1.5em;
-    margin-bottom: 2em;
 }
 
 .description{
@@ -324,6 +317,7 @@ button#name{
     margin-bottom: 0;
     display: flex;
     justify-content: center;
+    flex-direction: column;
   }
  a.Hack{
     color: var(--blanco);
@@ -338,14 +332,11 @@ button#name{
    background-color: var(--sombreadoHover);
  }
  p.pfooter {
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
     color: var(--blanco);
-    text-align: center;
  }
 
  /*Media quarys para moviles */
- @media (min-width: 300px) and (max-width: 600px){ 
+ @media (min-width: 300px) and (max-width: 500px){ 
     .cuadrado {
         width: 12em;
         height: 7em;
@@ -378,6 +369,19 @@ button#name{
         display: none;
     }
 
+    ul.menu{
+        gap: 4px;
+    }
+
+    a.link-menu {
+        font-size: 14px;
+    }
+
+    article.description-principal {
+        margin: 1em;
+        font-size: 3em;
+    }
+
 h2.titulo{
     text-align: center;
     font-size: 36px;
@@ -385,63 +389,62 @@ h2.titulo{
 }
     
 p {
-text-align: center;
-font-size: 17px;
-margin-top: 0;
+    font-size: 13px;
+    margin-top: 0;
 }
 
-    .texto-contacto {
-        font-size: 1.5em;
-    }
+.texto-contacto {
+    font-size: 15px;
+    margin-bottom: 4px;
+}
 
     button.Juega {
-        width: 9em;
+        width: 8em;
         height: 2em;
-        font-size: 2em;
+        font-size: 29px;
     }
 
     a.Hack {
-        font-size: 50px;
-        width: 100%;
+        font-size: 40px;
         height: 100%;
     }
 
     /* Estilos para el apartado de Contactanos de Media Quarys */
     .foto-perfil {
-        width: 12em;
-        height: 12em;
+        width: 7em;
+        height: 7em;
     }
 
     .targeta {
-        overflow: hidden;
-        background-color: var(--blanco);
         width: 11em;
-        height: 20em;
+        height: 13em;
     }
 
     .contenido-texto-contacto {
         font-size: 11px;
-        margin-bottom: 22px;
+        margin-bottom: 8px;
+        margin-left: 0.5em;
     }
-
+    .contenido-contacto {
+        width: 97%;
+        margin-left: 4px;
+    }
     .alinear {
-        display: flex;
         justify-content: center;
         align-items: center;
         gap: 2em;
-        width: 152px;
         height: 4em;
     }
 
 h2.alinear {
-    font-size: 19px;
+    font-size: 14px;
     text-align: center;
     margin: 0;
 }
 
 img {
-    width: 21px;
-    height: 32px;
+    width: 14px;
+    height: 13px;
 }
 }
 
