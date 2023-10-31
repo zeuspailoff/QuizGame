@@ -4,7 +4,7 @@ let audioFondo = document.getElementById('audioFondo');
 let bSilencio = document.querySelector('#bSilencio');
 let imgElementSilencio = document.querySelector('#bSilencio img');
 const imgSilencio = "../recourses/icons/icons8-silencio-48.png";
-const imgSonido = "../recourses/icons/icons8-boca-abierta-48.png"
+const imgSonido = "../recourses/icons/icons8-boca-abierta-48.png";
 
 function toggleMuted(){
     if(audioFondo.muted){
