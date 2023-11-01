@@ -457,6 +457,14 @@ img {
 
 /*Medias para PREGUNTAS*/
 
+/*Medias para Nombres*/
+input.name {
+width: 21em;
+}
+.logogift {
+    height: 20rem;
+    width: 20rem;
+}
 }
 /* Medias para tablets */
 @media (min-width: 500px) and (max-width: 800px){
@@ -487,6 +495,10 @@ img {
         align-items: center;
         gap: 2em;
         height: 4em
+}
+.logogift {
+    height: 20rem;
+    width: 20rem;
 }
 }
 /* Medias para portatiles y monitores */
