@@ -1,4 +1,4 @@
-let preguntas2 = true;
+/*let preguntas2 = true;
 let juegoTermino = true;
 let reiniciamosJuego = true;
 const pizza1 = "../recourses/icons/pizza/pizza-5.png";
@@ -18,4 +18,26 @@ const pregunta = [ciencias,cultura, deportes, life_hacks, peliculas,  musica];
 
 class preguntas{
     
+}*/
+
+function escogerPreguntaRandom() {
+    escogerPregunta(Math.floor(Math.random()))
 }
+function escogerPregunta(n) {
+    let preguntas = readText("ciencias.json", "cultura-general.json", "deportes.json","life_hacks.json","movies.json","music.json") 
+    let interprete = JSON.parse(preguntas)
+    pregunta = interprete[n]
+    select_id("pregunta").innerHTML = pregunta.pregunta
+}
+
+function select_id(id) {
+    return document.getElementById(id)
+}
+
+function style(id) {
+    return select_id(id).style
+}
+
+function readText(ruta_Local) {
+    let texto = null
+} 
