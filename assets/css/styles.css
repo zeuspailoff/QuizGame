@@ -11,7 +11,7 @@
     --blanco: white;
     --amarillo: rgb(245, 214, 76);
     --color-fondo: rgb(255,255,255);
-       background: linear-gradient(90deg, rgba(255,255,255,1) 19%, rgba(121,86,9,1) 82%);
+       background: linear-gradient(90deg, rgba(227,134,81,1) 0%, rgba(255,201,0,0.7511379551820728) 100%);
 
 }
 
@@ -456,7 +456,21 @@ img {
 }
 
 /*Medias para PREGUNTAS*/
-
+.imagenPregunta{
+    height: 0;
+    width: 0;
+}
+.contenedorPreguntas {
+    width: 50vh;
+}
+/*Medias para Nombres*/
+input.name {
+width: 21em;
+}
+.logogift {
+    height: 20rem;
+    width: 20rem;
+}
 }
 /* Medias para tablets */
 @media (min-width: 500px) and (max-width: 800px){
@@ -487,6 +501,10 @@ img {
         align-items: center;
         gap: 2em;
         height: 4em
+}
+.logogift {
+    height: 20rem;
+    width: 20rem;
 }
 }
 /* Medias para portatiles y monitores */
@@ -563,4 +581,11 @@ img {
     padding: 10px 20px;
     margin: 10px; 
     cursor: pointer;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
