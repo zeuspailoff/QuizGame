@@ -454,7 +454,55 @@ img {
     width: 14px;
     height: 13px;
 }
+
+/*Medias para PREGUNTAS*/
+
 }
+/* Medias para tablets */
+@media (min-width: 500px) and (max-width: 800px){
+    .foto-perfil {
+        width: 10em;
+        height: 10em;
+    }
+
+    .targeta {
+        width: 10em;
+        height: 22em;
+    }
+
+    .contenido-texto-contacto {
+        font-size: 11px;
+        margin-bottom: 8px;
+        margin-left: 0.5em;
+        
+        
+    }
+    .contenido-contacto {
+        width: 97%;
+        margin-left: 4px;
+        margin-bottom: 5em;
+    }
+    .alinear {
+        justify-content: center;
+        align-items: center;
+        gap: 2em;
+        height: 4em
+}
+}
+/* Medias para portatiles y monitores */
+@media (min-width: 800px) and (max-width: 2560px){
+    .foto-perfil {
+        width: 12em;
+        height: 11em;
+    }
+
+    .targeta {
+        width: 12em;
+        height: 22em;
+    }
+
+}
+
 
 /* Apartado de Preguntas */
 .contenedorPreguntas {
@@ -491,12 +539,10 @@ img {
     color: #fff;
     width: 60%;
     max-width: 550px;
-    padding: 10px;
+    padding: 17px; 
     margin: 5px;
     cursor: pointer;
-    margin-left: 33vh;
-    padding: 17px;
-   
+    text-align: center; 
 }
 
 .botonPregunta:hover {
@@ -510,8 +556,11 @@ img {
     height: 200px;
     width: 100%;
 }
-.boton-enviar-respuestas{
+.boton-enviar-respuestas {
     border-radius: 20px;
     background-color: var(--negro);
     color: var(--blanco);
+    padding: 10px 20px;
+    margin: 10px; 
+    cursor: pointer;
 }

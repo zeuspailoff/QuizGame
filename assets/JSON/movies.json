@@ -11,9 +11,10 @@
       "respuesta_correcta": "1972"
     },
     {
-      "pregunta": "¿Cuál es la película de animación de Disney sobre un león joven que se convierte en rey?",
-      "opciones": ["El Rey León", "La Bella y la Bestia", "Tangled", "Frozen"],
-      "respuesta_correcta": "Tangled"
+      "pregunta": "¿Cuál es el nombre de la pelicula de la siguiente escena?",
+      "recurso": "http://127.0.0.1:5500/assets/recourses/img/la_vida_es_bella.gif",
+      "opciones": ["El Rey León", "La vida es bella", "Tangled", "Frozen"],
+      "respuesta_correcta": "La vida es bella"
     },
     {
       "pregunta": "¿Qué actor interpretó a Iron Man en el Universo Cinematográfico de Marvel?",
@@ -61,14 +62,16 @@
       "respuesta_correcta": "Jurassic Park"
     },
     {
-      "pregunta": "¿Cuál es la película de animación japonesa más famosa dirigida por Hayao Miyazaki?",
-      "opciones": ["My Neighbor Totoro", "Spirited Away", "Princess Mononoke", "Howl's Moving Castle"],
-      "respuesta_correcta": "Spirited Away"
+      "pregunta": "¿A que pelicula corresponde la siguiente escena?",
+      "recurso": "http://127.0.0.1:5500/assets/recourses/img/American_Beauty.gif",
+      "opciones": ["My Neighbor Totoro", "American Beauty", "Princess Mononoke", "Howl's Moving Castle"],
+      "respuesta_correcta": "American Beauty"
     },
     {
-      "pregunta": "¿En qué película Quentin Tarantino interpreta a un personaje llamado Mr. Blonde?",
-      "opciones": ["Pulp Fiction", "Reservoir Dogs", "Kill Bill", "Django Unchained"],
-      "respuesta_correcta": "Reservoir Dogs"
+      "pregunta": "¿Cuál es el nombre del siguiente actor?",
+      "recurso": "http://127.0.0.1:5500/assets/recourses/img/Babel.gif",
+      "opciones": ["Zac Efron", "Brad Pitt", "Leonardo Dicaprio", "Django"],
+      "respuesta_correcta": "Brad Pitt"
     },
     {
       "pregunta": "¿Qué película ganó el premio a la Mejor Película en los Premios de la Academia en 2019?",
@@ -81,9 +84,10 @@
       "respuesta_correcta": "Peter Jackson"
     },
     {
-      "pregunta": "¿Cuál es la película de ciencia ficción de 1982 dirigida por Ridley Scott sobre androides?",
-      "opciones": ["Blade Runner", "Alien", "The Terminator", "E.T. the Extra-Terrestrial"],
-      "respuesta_correcta": "Blade Runner"
+      "pregunta": "¿A que pelicula corresponde la siguiente escena?",
+      "recurso": "http://127.0.0.1:5500/assets/recourses/img/el_bueno_el_feo_y_el_malo.gif",
+      "opciones": ["El bueno, el feo y el malo", "Alien", "The Terminator", "E.T. the Extra-Terrestrial"],
+      "respuesta_correcta": "El bueno, el feo y el malo"
     },
     {
       "pregunta": "¿Qué actor interpreta a Wolverine en la franquicia de películas de X-Men?",
@@ -101,14 +105,16 @@
       "respuesta_correcta": "Inception"
     },
     {
-      "pregunta": "¿Quién es el director de la película 'The Shawshank Redemption'?",
-      "opciones": ["Martin Scorsese", "Quentin Tarantino", "Frank Darabont", "David Fincher"],
-      "respuesta_correcta": "Frank Darabont"
+      "pregunta": "¿A que pelicula corresponde la siguiente escena?",
+      "recurso": "http://127.0.0.1:5500/assets/recourses/img/hombres_de_honor.gif",
+      "opciones": ["Troya", "Quentin Tarantino", "Hombres de honor", "El bosque perdido"],
+      "respuesta_correcta": "Hombres de honor"
     },
     {
-      "pregunta": "¿En qué película aparece el famoso letrero 'Heeeeeere's Johnny!'?",
-      "opciones": ["Psycho", "The Shining", "A Clockwork Orange", "Rosemary's Baby"],
-      "respuesta_correcta": "The Shining"
+      "pregunta": "¿A que pelicula corresponde la siguiente escena?",
+      "recurso": "http://127.0.0.1:5500/assets/recourses/img/Malditos_Bastardos.gif",
+      "opciones": ["Psycho", "Malditos bastardos", "A Clockwork Orange", "Rosemary's Baby"],
+      "respuesta_correcta": "Malditos bastardos"
     },
     {
       "pregunta": "¿Cuál es la película de superhéroes que reúne a Iron Man, Capitán América, Thor y Hulk por primera vez?",
@@ -131,9 +137,10 @@
       "respuesta_correcta": "Joaquin Phoenix"
     },
     {
-      "pregunta": "¿En qué película aparece el famoso personaje de ciencia ficción HAL 9000?",
-      "opciones": ["2001: A Space Odyssey", "Blade Runner", "Star Wars", "The Terminator"],
-      "respuesta_correcta": "2001: A Space Odyssey"
+      "pregunta": "¿A que pelicula corresponde la siguiente escena?",
+      "recurso": "http://127.0.0.1:5500/assets/recourses/img/O_brother_where_are_thou.gif",
+      "opciones": ["¿Donde estas hermano?", "Blade Runner", "Star Wars", "The Terminator"],
+      "respuesta_correcta": "¿Donde estas hermano?"
     },
     {
       "pregunta": "¿Quién es el director de la película 'Fight Club'?",
@@ -141,9 +148,10 @@
       "respuesta_correcta": "David Fincher"
     },
     {
-      "pregunta": "¿En qué película aparece el personaje de Hannibal Lecter por primera vez?",
-      "opciones": ["The Silence of the Lambs", "Red Dragon", "Hannibal", "Manhunter"],
-      "respuesta_correcta": "Manhunter"
+      "pregunta": "¿A que pelicula corresponde la siguiente escena?",
+      "recurso": "http://127.0.0.1:5500/assets/recourses/img/stranger_than_fiction.gif",
+      "opciones": ["The Silence of the Lambs", "Red Dragon", "Hannibal", "Más real que la ficción"],
+      "respuesta_correcta": "Más real que la ficción"
     },
     {
       "pregunta": "¿Cuál es la película de Pixar sobre un ratón chef?",
@@ -161,9 +169,10 @@
       "respuesta_correcta": "The Terminator"
     },
     {
-      "pregunta": "¿Qué película de Stanley Kubrick trata sobre la Guerra Fría y la amenaza nuclear?",
-      "opciones": ["Paths of Glory", "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb", "A Clockwork Orange", "2001: A Space Odyssey"],
-      "respuesta_correcta": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb"
+      "pregunta": "¿A que pelicula corresponde la siguiente escena?",
+      "recurso": "http://127.0.0.1:5500/assets/recourses/img/the_blues_brothers.gif",
+      "opciones": ["Paths of Glory", "The blues brothers", "A Clockwork Orange", "2001: A Space Odyssey"],
+      "respuesta_correcta": "The blues brothers"
     },
     {
       "pregunta": "¿En qué película aparece el famoso personaje Tony Stark interpretado por Robert Downey Jr.?",
@@ -171,9 +180,10 @@
       "respuesta_correcta": "Iron Man"
     },
     {
-      "pregunta": "¿Cuál es la película de ciencia ficción de 1977 dirigida por George Lucas que dio inicio a la saga 'Star Wars'?",
-      "opciones": ["Star Wars: Episode IV - A New Hope", "Star Wars: Episode V - The Empire Strikes Back", "Star Wars: Episode VI - Return of the Jedi", "Star Wars: Episode I - The Phantom Menace"],
-      "respuesta_correcta": "Star Wars: Episode IV - A New Hope"
+      "pregunta": "¿Cuál es el nombre del siguiente actor?",
+      "recurso": "http://127.0.0.1:5500/assets/recourses/img/the_cable_guy.gif",
+      "opciones": ["Jim carrey", "Zac Efron", "Elon Musk", "Jhonny Deep"],
+      "respuesta_correcta": "Jim Carrey"
     },
     {
       "pregunta": "¿Quién es el director de la película 'The Godfather'?",
