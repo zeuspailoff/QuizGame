@@ -1,5 +1,7 @@
 "use strict";
 // Seleciono con DOM la section donde crear la pregunta (<section id="pregunta"></section>)
+
+
 const tituloPregunta = document.querySelector("#pregunta")
 const jsonCategoriasURLs = [  
     "../JSON/ciencias.json", 
@@ -34,3 +36,4 @@ const jsonCategoriasURLs = [
     };
     
     main();
+
