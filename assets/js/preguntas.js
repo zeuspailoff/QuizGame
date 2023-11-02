@@ -1,8 +1,11 @@
 "use strict";
 
-const tituloPregunta = document.querySelector("#pregunta");
-const jsonCategoriasURLs = [
-    "../JSON/ciencias.json",
+// Seleciono con DOM la section donde crear la pregunta (<section id="pregunta"></section>)
+
+
+const tituloPregunta = document.querySelector("#pregunta")
+const jsonCategoriasURLs = [  
+    "../JSON/ciencias.json", 
     "../JSON/cultura-general.json",
     "../JSON/deportes.json",
     "../JSON/lifeHacks.json",
@@ -49,6 +52,7 @@ const main = async () => {
             inputElement.type = "checkbox";
             inputElement.name = "respuesta";
     
+
             opcionesElement.appendChild(opcionElement);
             opcionesElement.appendChild(inputElement);
             console.log(opcionElement)
@@ -59,3 +63,4 @@ const main = async () => {
 };
 
 main();
+
