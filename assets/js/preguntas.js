@@ -21,7 +21,7 @@ class preguntas{
 }*/
 
 function escogerPreguntaRandom() {
-    escogerPregunta(Math.floor(Math.random()))
+    escogerPregunta(Math.floor(Math.random() * Array.length))
 }
 function escogerPregunta(n) {
     let preguntas = readText("ciencias.json", "cultura-general.json", "deportes.json","life_hacks.json","movies.json","music.json") 
