@@ -581,8 +581,8 @@ h2.titulo {
 
 /* Apartado de Preguntas */
 .contenedorPreguntas {
-    width: 98vh;
-    height: 45vh;
+    width: 60%;
+    height: 45%;
     display: inline-flex;
     flex-direction: column;
     justify-content: center;
