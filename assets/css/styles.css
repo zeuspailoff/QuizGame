@@ -11,7 +11,8 @@
     --blanco: white;
     --amarillo: rgb(245, 214, 76);
     --color-fondo: rgb(255,255,255);
-       background: linear-gradient(90deg, rgba(227,134,81,1) 0%, rgba(255,201,0,0.7511379551820728) 100%);
+    background: linear-gradient(90deg, rgba(130,82,55,1) 0%, rgba(223,205,138,0.7511379551820728) 100%);
+
 
 }
 
@@ -209,7 +210,7 @@ article.description-principal{
    
 }
 button.Juega{
-    background-color: var(--rosa);
+    background-color: black;
     margin-bottom:10px;
     color: var(--blanco);
     border-radius: 20px;
@@ -474,6 +475,48 @@ width: 21em;
 }
 /* Medias para tablets */
 @media (min-width: 500px) and (max-width: 800px){
+/* Medias para Index*/
+section.principal {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(2em, 1fr));
+    justify-items: center;
+    align-content: center;
+    margin: 5em;
+}
+
+button.Juega {
+    background-color: black;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    width: 14em;
+    height: 4em;
+    font-size: 1em;
+}
+article.description-principal {
+    margin: 3em;
+    font-size: 1em;
+}
+
+h2.titulo {
+    font-size: 2em;
+}
+
+.cuadrado {
+    width: 9em;
+    height: 5em;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: var(--rosa);
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: -4em;
+    gap: 0;
+    margin-bottom: -92px;
+}
     .foto-perfil {
         width: 10em;
         height: 10em;
@@ -517,6 +560,14 @@ width: 21em;
     .targeta {
         width: 12em;
         height: 22em;
+    }
+
+    section.principal {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(11em, 1fr));
+        justify-items: center;
+        margin: 3em;
+        gap: 5em;
     }
 
 }
