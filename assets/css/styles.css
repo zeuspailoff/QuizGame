@@ -217,6 +217,12 @@ button.Juega{
     width: 20em;
     height: 5em;
     font-size: 2em;
+    
+}
+a.link-juega{
+    color: var(--blanco);
+    text-decoration: none;
+    
 }
 
 /* targetas pagina de contacto */
