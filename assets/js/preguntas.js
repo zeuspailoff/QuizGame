@@ -1,11 +1,7 @@
 "use strict";
 
-// Seleciono con DOM la section donde crear la pregunta (<section id="pregunta"></section>)
-
-
-const tituloPregunta = document.querySelector("#pregunta")
-const jsonCategoriasURLs = [  
-    "../JSON/ciencias.json", 
+const jsonCategoriasURLs = [
+    "../JSON/ciencias.json",
     "../JSON/cultura-general.json",
     "../JSON/deportes.json",
     "../JSON/lifeHacks.json",
@@ -13,54 +9,49 @@ const jsonCategoriasURLs = [
     "../JSON/music.json"
 ];
 
-const main = async () => {
-    const quiz = [];
-    let puntos = 0;
+const obtenerPreguntasAleatorias = async (urls) => {
+    const preguntas = [];
 
-    for (let categoriaURL of jsonCategoriasURLs) {
-        const resp = await fetch(categoriaURL);
-        const preguntas = await resp.json();
+    for (const url of urls) {
+        const resp = await fetch(url);
+        const data = await resp.json();
 
-        if (preguntas.preguntas && preguntas.preguntas.length > 0) {
-            let i = Math.floor(Math.random() * preguntas.preguntas.length);
-            quiz.push(preguntas.preguntas[i]);
+        if (data.preguntas && data.preguntas.length > 0) {
+            const preguntaAleatoria = data.preguntas[Math.floor(Math.random() * data.preguntas.length)];
+            preguntas.push(preguntaAleatoria);
         }
-        console.log(quiz);
     }
 
+    return preguntas;
+};
+
+const mostrarPregunta = (pregunta) => {
     const preguntaElement = document.createElement("div");
     preguntaElement.className = "preguntaPreguntas";
+    preguntaElement.textContent = pregunta.pregunta;
     document.getElementById("pregunta").appendChild(preguntaElement);
 
     const opcionesElement = document.createElement("div");
     opcionesElement.className = "botonPregunta";
-    preguntaElement.appendChild(opcionesElement);
-    console.log(preguntaElement)
+    document.getElementById("pregunta").appendChild(opcionesElement);
 
-    function mostrarPregunta(nombres) {
-        const pregunta = quiz[nombres];
-        preguntaElement.textContent = pregunta.tituloPregunta;
-    
-        opcionesElement.innerHTML = "";
-    
-        for (let i = 0; i < pregunta.opciones.length; i++) {
-            const opcionElement = document.createElement("div");
-            opcionElement.className = "opcionPregunta";
-            opcionElement.textContent = pregunta.opciones[i];
-    
-            const inputElement = document.createElement("input");
-            inputElement.type = "checkbox";
-            inputElement.name = "respuesta";
-    
+    pregunta.opciones.forEach((opcion, index) => {
+        const opcionElement = document.createElement("div");
+        opcionElement.className = "opcionPregunta";
+        opcionElement.textContent = opcion;
 
-            opcionesElement.appendChild(opcionElement);
-            opcionesElement.appendChild(inputElement);
-            console.log(opcionElement)
-           
-        }
-    }
-    mostrarPregunta(i);
+        const inputElement = document.createElement("input");
+        inputElement.type = "radio";
+        inputElement.name = "preguntas"; 
+
+        opcionesElement.appendChild(opcionElement);
+        opcionesElement.appendChild(inputElement);
+    });
 };
 
-main();
+const iniciarQuiz = async () => {
+    const preguntas = await obtenerPreguntasAleatorias(jsonCategoriasURLs);
+    preguntas.forEach(mostrarPregunta);
+};
 
+iniciarQuiz();
