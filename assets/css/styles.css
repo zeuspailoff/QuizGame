@@ -588,6 +588,7 @@ h2.titulo {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 10px;
     
 }
 
@@ -613,12 +614,12 @@ h2.titulo {
 .botonPregunta {
     background: var(--rosa);
     color: #fff;
-    width: 60%;
+    width: 50%;
     max-width: 550px;
     padding: 17px; 
     margin: 5px;
     cursor: pointer;
-    text-align: center; 
+    text-align: start; 
 }
 
 .botonPregunta:hover {
