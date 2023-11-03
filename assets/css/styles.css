@@ -652,3 +652,9 @@ form {
     flex-direction: column;
     margin-bottom: 5em;
 }
+.correct{
+    background-color: greenyellow;
+}
+.fail{
+    background-color: red;
+}

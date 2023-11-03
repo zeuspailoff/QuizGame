@@ -1,142 +1,104 @@
-"use strict";
+'use strict'
 
 const jsonCategoriasURLs = [
-  "../JSON/ciencias.json",
-  "../JSON/cultura-general.json",
-  "../JSON/deportes.json",
-  "../JSON/lifeHacks.json",
-  "../JSON/movies.json",
-  "../JSON/music.json",
-];
+  '../JSON/ciencias.json',
+  '../JSON/cultura-general.json',
+  '../JSON/deportes.json',
+  '../JSON/lifeHacks.json',
+  '../JSON/movies.json',
+  '../JSON/music.json'
+]
 
-const randomQuestionEachJSON = async(urls) => {
+let numPregunta = 0
+let correctas = 0
+const divShow = document.querySelector('.show')
+const form = document.forms.respuesta
+let correctAnswer = ''
+let questions = ''
 
-  const finalQuestions = [];
+const randomQuestionEachJSON = async (urls) => {
+  const finalQuestions = []
 
   for (const url of urls) {
-    const response = await fetch(url);
-    const data = await response.json();
+    const response = await fetch(url)
+    const data = await response.json()
     const preguntas = data.preguntas
 
-    if(preguntas){
-
-      const ramdomI = Math.floor(Math.random() * preguntas.length);
-      const question = preguntas[ramdomI];
+    if (preguntas) {
+      const ramdomI = Math.floor(Math.random() * preguntas.length)
+      const question = preguntas[ramdomI]
       finalQuestions.push({
-        "question": question.pregunta,
-        "options": question.opciones,
-        "correct_answer": question.respuesta_correcta
+        question: question.pregunta,
+        options: question.opciones,
+        correct_answer: question.respuesta_correcta
       })
     }
   }
 
-  return finalQuestions;
+  return finalQuestions
 }
 
-randomQuestionEachJSON(jsonCategoriasURLs);
+randomQuestionEachJSON(jsonCategoriasURLs)
 
-const divShow = document.querySelector(".show");
+const renderQuestion = (obj, index) => {
+  const element = obj[index]
+  const quest = document.querySelector('.preguntaPreguntas')
+  quest.textContent = ''
+  quest.textContent = element.question
 
-const renderQuestion = (obj) => {
+  const header = document.getElementById('pregunta')
+  header.appendChild(quest)
 
-  const quest = document.createElement("div");
-  quest.className = "preguntaPreguntas";
-  quest.textContent = obj.pregunta;
+  element.options.forEach((opcion, key) => {
+    const opciones = document.createElement('div')
+    opciones.className = 'botonPregunta'
+    opciones.id = key
+    divShow.appendChild(opciones)
 
-  const header = document.getElementById("pregunta");
-  header.appendChild(quest);
+    const label = document.createElement('label')
+    label.className = 'opcionPregunta'
+    label.for = opcion
+    label.textContent = opcion
 
-  const form = document.forms.respuesta;
+    const inputRadio = document.createElement('input')
+    inputRadio.type = 'radio'
+    inputRadio.name = 'user_answer'
+    inputRadio.value = opcion
+    inputRadio.id = opcion
 
-  obj.opciones.forEach((opcion) => {
-    const opcions = document.createElement("div");
-    opcions.className = "botonPregunta";
-    form.appendChild(opcions);
-  
-
-    const opcionValue = document.createElement("div");
-    opcionValue.className = "opcionPregunta";
-    opcionValue.textContent = opcion;
-
-    const inputRadio = document.createElement("input");
-    inputRadio.type = "radio";
-    inputRadio.name = "respuesta";
-
-    opcionesElement.appendChild(opcionValue);
-    opcionesElement.appendChild(inputRadio);
-  });
-
+    opciones.appendChild(label)
+    opciones.appendChild(inputRadio)
+  })
 }
-
-
-/* const obtenerPreguntaAleatoria = async (urls) => {
-  const todasLasPreguntas = [];
-
-  for (const url of urls) {
-    const resp = await fetch(url);
-    const data = await resp.json();
-
-    if (data.preguntas && data.preguntas.length > 0) {
-      todasLasPreguntas.push(...data.preguntas);
-      console.log(todasLasPreguntas);
-    }
-  }
-
-  return todasLasPreguntas[
-    Math.floor(Math.random() * todasLasPreguntas.length)
-  ];
-};
-
-const mostrarPregunta = (pregunta) => {
-  const preguntaElement = document.createElement("div");
-  preguntaElement.className = "preguntaPreguntas";
-  preguntaElement.textContent = pregunta.pregunta;
-
-  const divEncabezado = document.getElementById("pregunta");
-  console.log(divEncabezado);
-  divEncabezado.appendChild(preguntaElement);
-
-  
-  const form = document.forms.respuesta;
- 
-
-  pregunta.opciones.forEach((opcion, index) => {
-    const opcionesElement = document.createElement("div");
-    opcionesElement.className = "botonPregunta";
-    form.appendChild(opcionesElement);
-  
-
-    const opcionElement = document.createElement("div");
-    opcionElement.className = "opcionPregunta";
-    opcionElement.textContent = opcion;
-
-    const inputElement = document.createElement("input");
-    inputElement.type = "radio";
-    inputElement.name = "respuesta";
-
-    opcionesElement.appendChild(opcionElement);
-    opcionesElement.appendChild(inputElement);
-  });
-};
-
 
 const iniciarQuiz = async () => {
-  const pregunta = await obtenerPreguntaAleatoria(jsonCategoriasURLs);
-  if (pregunta) {
-    mostrarPregunta(pregunta);
+  questions = await randomQuestionEachJSON(jsonCategoriasURLs)
+  console.log(questions[numPregunta])
+  console.log(questions[numPregunta].correct_answer)
+  correctAnswer = questions[numPregunta].correct_answer
+  if (questions) {
+    renderQuestion(questions, numPregunta)
   } else {
-    console.log("No se encontraron preguntas.");
+    console.log('No se encontraron preguntas.')
   }
-};
+}
+iniciarQuiz()
+console.log(`la respuesta correcta es ${correctAnswer}`)
 
-iniciarQuiz();
+const checkAnswer = (e) => {
+  e.preventDefault()
+  const userAnswer = form.elements.user_answer.value
+  console.log(form.elements.user_answer.parentNode)
+  if(correctAnswer === userAnswer){
+    correctas++
+    form.elements.user_answer.classList.add('correct')
+  }else{
+    form.elements.user_answer.classList.add('fails')
+  }
+  // numPregunta++
+  // divShow.textContent = ''
+  // console.log(divShow);
+  // renderQuestion(questions, numPregunta)
+}
 
-
-// const checkAnswer =  (e) =>{
-//   e.preventDefault();
-//   const correcAnswer = data.preguntas[]
-//   console.log(correcAnswer)
-
-// }
-
-//  form.addEventListener("submit", checkAnswer);  */
+form.addEventListener('submit', checkAnswer)
