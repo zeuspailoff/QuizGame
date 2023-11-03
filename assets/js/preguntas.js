@@ -95,6 +95,14 @@ const checkAnswer = (e) => {
   if(correctAnswer === userAnswer){
 
     correctas++
+
+    console.log(form.elements.user_answer)
+    
+   // form.elements.user_answer.classList.add('correct');
+    setTimeout(() => {
+      numPregunta++
+   }, 5000)
+
     
     myRadio.style.background = 'green'
     
