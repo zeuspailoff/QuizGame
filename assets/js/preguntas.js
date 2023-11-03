@@ -9,20 +9,19 @@ const jsonCategoriasURLs = [
     "../JSON/music.json"
 ];
 
-const obtenerPreguntasAleatorias = async (urls) => {
-    const preguntas = [];
+const obtenerPreguntaAleatoria = async (urls) => {
+    const todasLasPreguntas = [];
 
     for (const url of urls) {
         const resp = await fetch(url);
         const data = await resp.json();
 
         if (data.preguntas && data.preguntas.length > 0) {
-            const preguntaAleatoria = data.preguntas[Math.floor(Math.random() * data.preguntas.length)];
-            preguntas.push(preguntaAleatoria);
+            todasLasPreguntas.push(...data.preguntas);
         }
     }
 
-    return preguntas;
+    return todasLasPreguntas[Math.floor(Math.random() * todasLasPreguntas.length)];
 };
 
 const mostrarPregunta = (pregunta) => {
@@ -42,7 +41,7 @@ const mostrarPregunta = (pregunta) => {
 
         const inputElement = document.createElement("input");
         inputElement.type = "radio";
-        inputElement.name = "preguntas"; 
+        inputElement.name = "respuesta";
 
         opcionesElement.appendChild(opcionElement);
         opcionesElement.appendChild(inputElement);
@@ -50,8 +49,12 @@ const mostrarPregunta = (pregunta) => {
 };
 
 const iniciarQuiz = async () => {
-    const preguntas = await obtenerPreguntasAleatorias(jsonCategoriasURLs);
-    preguntas.forEach(mostrarPregunta);
+    const pregunta = await obtenerPreguntaAleatoria(jsonCategoriasURLs);
+    if (pregunta) {
+        mostrarPregunta(pregunta);
+    } else {
+        console.log("No se encontraron preguntas.");
+    }
 };
 
 iniciarQuiz();
