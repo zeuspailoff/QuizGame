@@ -88,17 +88,26 @@ console.log(`la respuesta correcta es ${correctAnswer}`)
 const checkAnswer = (e) => {
   e.preventDefault()
   const userAnswer = form.elements.user_answer.value
-  console.log(form.elements.user_answer.parentNode)
+ 
   if(correctAnswer === userAnswer){
     correctas++
-    form.elements.user_answer.classList.add('correct')
+    console.log(form.elements.user_answer)
+    
+    form.elements.user_answer.classList.add('correct');
+    setTimeout(() => {
+      numPregunta++
+   }, 5000)
+    
+    
   }else{
-    form.elements.user_answer.classList.add('fails')
+    setTimeout(() => {
+      numPregunta++
+   }, 5000)
   }
-  // numPregunta++
-  // divShow.textContent = ''
-  // console.log(divShow);
-  // renderQuestion(questions, numPregunta)
+   
+   divShow.textContent = ''
+   console.log(divShow);
+   renderQuestion(questions, numPregunta)
 }
 
 form.addEventListener('submit', checkAnswer)
