@@ -135,6 +135,7 @@ h2.titulo{
     font-size: 3em;
     margin: 0;
     padding: 0;
+    font-family:cursive;
 }
 
 
@@ -343,6 +344,7 @@ button#name{
  }
  a.Hack:hover{
    background-color: var(--sombreadoHover);
+   height: 40px;
  }
  p.pfooter {
     color: var(--blanco);
