@@ -1,4 +1,14 @@
-'use strict'
+const url = new URL(window.location.href);
+const params = url.searchParams;
+const userName = params.get("name");
+
+const resolveURL = (e) => {
+  e.preventDefault()
+  let usuario = nombre.value
+  let baseURL = window.location.protocol + "//" + window.location.host;
+  // window.location.href = `${baseURL}/assets/templates/preguntas.html?name_${usuario}` 
+  console.log(`${baseURL}/assets/templates/preguntas.html?name_${usuario}`);
+}
 
 const jsonCategoriasURLs = [
   '../JSON/ciencias.json',
@@ -62,6 +72,7 @@ const renderQuestion = (obj, index) => {
 
     const inputRadio = document.createElement('input')
     inputRadio.type = 'radio'
+    inputRadio.className = 'choose'
     inputRadio.name = 'user_answer'
     inputRadio.value = opcion
     inputRadio.id = opcion
@@ -85,63 +96,54 @@ const iniciarQuiz = async () => {
 iniciarQuiz()
 console.log(`la respuesta correcta es ${correctAnswer}`)
 
-const myRadio = document.getElementById('opcion');
 
 const checkAnswer = (e) => {
   e.preventDefault()
   const userAnswer = form.elements.user_answer.value
-  
+  const chooses = document.querySelectorAll('.choose')
  
+  let flag = 0;
   if(correctAnswer === userAnswer){
-
     correctas++
+    flag = 1;  
+    }
+    else {
+      flag = 2;
+    }
 
-    console.log(form.elements.user_answer)
-    
-   // form.elements.user_answer.classList.add('correct');
     setTimeout(() => {
-      numPregunta++
-   }, 5000)
-
-    
-    myRadio.style.background = 'green'
-    
-    setTimeout(() => {
-      myRadio.style.background = ''
+      divShow.textContent = ''
       renderQuestion(questions, numPregunta)
-      }, 4000) 
-      
-      
-    }else {
-      myRadio.style.background = 'red'
-      setTimeout(() => {
-        myRadio.style.background = ''
-        renderQuestion(questions, numPregunta)
-      }, 4000)
-    }
-    if(numPregunta === 5){
-      const finalText = document.createElement('h2')
-      finalText.className = 'textoFinal'
-      finalText.contains(`Has conseguido ${correctas} de 6 preguntas`)
-  
-  
-    }
+    }, 4000)
+
+    chooses.forEach(element => {
+      if (element.value === userAnswer) {
+        if (flag === 1) {
+          element.parentNode.classList.add('correct')
+        }else{
+          element.parentNode.classList.add('fail')
+        }
+      }
+    });
+    
     numPregunta++
-   divShow.textContent = ''
-   console.log(divShow);
-   //renderQuestion(questions, numPregunta)
+    finalGame()
 }
 
 const finalGame = () => {
   if(numPregunta === 5){
+    const questionsContainer = document.querySelector('.contenedorPreguntas')
     const finalText = document.createElement('h2')
     finalText.className = 'textoFinal'
-    finalText.contains(`Has conseguido ${correctas} de 6 preguntas`)
-
+    finalText.textContent = `${userName} has conseguido ${correctas} de 6 preguntas`
+    questionsContainer.textContent = ''
+    questionsContainer.appendChild(finalText)
 
   }
 }
 
 //finalGame(finalQuestions)
 
-form.addEventListener('submit', checkAnswer, finalGame)
+form.addEventListener('submit', checkAnswer)
+
+
