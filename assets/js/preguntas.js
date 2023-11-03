@@ -85,29 +85,63 @@ const iniciarQuiz = async () => {
 iniciarQuiz()
 console.log(`la respuesta correcta es ${correctAnswer}`)
 
+const myRadio = document.getElementById('opcion');
+
 const checkAnswer = (e) => {
   e.preventDefault()
   const userAnswer = form.elements.user_answer.value
+  
  
   if(correctAnswer === userAnswer){
+
     correctas++
+
     console.log(form.elements.user_answer)
     
    // form.elements.user_answer.classList.add('correct');
     setTimeout(() => {
       numPregunta++
    }, 5000)
+
     
+    myRadio.style.background = 'green'
     
-  }else{
     setTimeout(() => {
-      numPregunta++
-   }, 5000)
-  }
-   
+      myRadio.style.background = ''
+      renderQuestion(questions, numPregunta)
+      }, 4000) 
+      
+      
+    }else {
+      myRadio.style.background = 'red'
+      setTimeout(() => {
+        myRadio.style.background = ''
+        renderQuestion(questions, numPregunta)
+      }, 4000)
+    }
+    if(numPregunta === 5){
+      const finalText = document.createElement('h2')
+      finalText.className = 'textoFinal'
+      finalText.contains(`Has conseguido ${correctas} de 6 preguntas`)
+  
+  
+    }
+    numPregunta++
    divShow.textContent = ''
    console.log(divShow);
-   renderQuestion(questions, numPregunta)
+   //renderQuestion(questions, numPregunta)
 }
 
-form.addEventListener('submit', checkAnswer)
+const finalGame = () => {
+  if(numPregunta === 5){
+    const finalText = document.createElement('h2')
+    finalText.className = 'textoFinal'
+    finalText.contains(`Has conseguido ${correctas} de 6 preguntas`)
+
+
+  }
+}
+
+//finalGame(finalQuestions)
+
+form.addEventListener('submit', checkAnswer, finalGame)
