@@ -612,6 +612,9 @@ h2.titulo {
 }
 
 .botonPregunta {
+    display: flex;
+    justify-content: center;
+    align-items:center;
     background: var(--negro);
     color: #fff;
     width: 50%;
