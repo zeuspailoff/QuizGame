@@ -93,7 +93,7 @@ const checkAnswer = (e) => {
     correctas++
     console.log(form.elements.user_answer)
     
-    form.elements.user_answer.classList.add('correct');
+   // form.elements.user_answer.classList.add('correct');
     setTimeout(() => {
       numPregunta++
    }, 5000)
