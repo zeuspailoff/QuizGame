@@ -221,6 +221,11 @@ button.Juega{
     font-size: 2em;
     
 }
+button.juega:hover {
+    transform: scale(1.05);
+    background-color: var(--naranja);
+    transition: 1s;
+  }
 a.link-juega{
     color: var(--blanco);
     text-decoration: none;
@@ -326,6 +331,7 @@ button#name{
     background-color: var(--negro);
     bottom: 0;
     width: 100%;
+    margin-top: 0;
     color: var(--blanco);
     text-align: center;
     margin-bottom: 0;
@@ -348,6 +354,7 @@ button#name{
  }
  p.pfooter {
     color: var(--blanco);
+    margin: 10px;
  }
 
  /*Media quarys para moviles */
