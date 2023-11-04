@@ -73,18 +73,16 @@ header{
     width: 10em;
 }
 /*Elementos del menu*/
-ul.menu{
+ul.menu {
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: flex-end;
     width: 50em;
     flex-direction: row;
     gap: 2em;
     list-style: none;
     padding: 0;
-    
-
-
+    margin-right: 90px;
 }
 li.menu{
     display: flex;
@@ -243,7 +241,22 @@ a.link-juega:hover{
     background-color: var(--naranja);
     transition: 1s;
 }
-
+a.link-juega{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--blanco);
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    
+}
+a.link-juega:hover{
+    border-radius: 20px;
+    transform: scale(1.08);
+    background-color: var(--naranja);
+    transition: 1s;
+}
 /* targetas pagina de contacto */
 .alinear{
     display: flex;
@@ -317,11 +330,13 @@ input.name{
 .enviar-form{
     text-align: center;
 }
-button#name{
-    background-color: var(--rosa);
-    margin-top: 1em;
+button#name {
+    background-color: var(--negro);
+    margin-top: 3em;
     border-radius: 10px;
-    width: 8em;
+    width: 12em;
+    height: 3em;
+    color: white;
 }
 .audio{
     display: flex;
@@ -488,6 +503,9 @@ img {
     height: 13px;
 }
 
+.cerebrito{
+    height: 107px;
+}
 /*Medias para PREGUNTAS*/
 .imagenPregunta{
     height: 0;
@@ -495,6 +513,10 @@ img {
 }
 .contenedorPreguntas {
     width: 50vh;
+}
+
+.botonPregunta{
+    width: 10em;
 }
 /*Medias para Nombres*/
 input.name {
@@ -602,6 +624,8 @@ h2.titulo {
         gap: 5em;
     }
 
+    
+
 }
 
 
@@ -625,6 +649,7 @@ h2.titulo {
     max-width: 600px;
     padding: 10px;
     color: var(--negro);
+    font-size: 25px;
 }
 
 .categoriaPregunta {
@@ -638,11 +663,11 @@ h2.titulo {
 
 .botonPregunta {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items:center;
     background: var(--negro);
     color: #fff;
-    width: 50%;
+    width: 21em;
     max-width: 550px;
     padding: 17px; 
     margin: 5px;
@@ -687,6 +712,13 @@ form {
     justify-content: center;
     flex-direction: column;
     margin-bottom: 5em;
+}
+
+.Form-bajo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3em;
 }
 .correct{
     background-color: greenyellow;
