@@ -78,6 +78,7 @@ const renderQuestion = (obj, index) => {
     inputRadio.value = opcion
     inputRadio.id = opcion
 
+    correctAnswer = questions[numPregunta].correct_answer
     opciones.appendChild(label)
     opciones.appendChild(inputRadio)
   })
@@ -85,11 +86,12 @@ const renderQuestion = (obj, index) => {
 //creamos la base para poder iniciar el juego y tener los datos necesarios para verificar respuestas 
 const iniciarQuiz = async () => {
   questions = await randomQuestionEachJSON(jsonCategoriasURLs)
-  console.log(questions[numPregunta])
-  console.log(questions[numPregunta].correct_answer)
-  correctAnswer = questions[numPregunta].correct_answer
+  /* console.log(questions[numPregunta])
+  console.log(questions[numPregunta].correct_answer) */
+  
   if (questions) {
     renderQuestion(questions, numPregunta)
+    
   } else {
     console.log('No se encontraron preguntas.')
   }
@@ -102,11 +104,13 @@ const checkAnswer = (e) => {
   e.preventDefault()
   const userAnswer = form.elements.user_answer.value
   const chooses = document.querySelectorAll('.choose')
+  const score = document.querySelector('.score')
  
   //creamos el flag para ayudarnos a saber la respuesta 
   let flag = 0;
   if(correctAnswer === userAnswer){
     correctas++
+    score.innerHTML = `Respuestas Correctas: ${correctas}`
     flag = 1;  
     }
     else {
@@ -116,6 +120,7 @@ const checkAnswer = (e) => {
     setTimeout(() => {
       divShow.textContent = ''
       renderQuestion(questions, numPregunta)
+      console.log(`la respuesta correcta es ${correctAnswer}`)
     }, 4000)
 // usamos el flag para comprobar que clase añadir si la que pone color verde o rojo
     chooses.forEach(element => {
@@ -134,18 +139,32 @@ const checkAnswer = (e) => {
 // si terminamos con el array de preguntas se acaba el juego y mosatramos el mensaje 
 const finalGame = () => {
   if(numPregunta === 5){
+
+    const buttonE = document.querySelector('.boton-enviar-respuestas')
+    const start = document.querySelector('.Form-bajo')
+    const linkStart = document.createElement('a');
+    linkStart.href = '/index.html'
+    linkStart.textContent = '¿Otra Partida?'
+
+    const reStart = document.createElement('button')
+    reStart.className = 'boton-enviar-respuestas'
+    reStart.appendChild(linkStart)
+
     const questionsContainer = document.querySelector('.contenedorPreguntas')
     const finalText = document.createElement('h2')
     finalText.className = 'textoFinal'
     finalText.textContent = `${userName} has conseguido ${correctas} de 6 preguntas`
     questionsContainer.textContent = ''
     divShow.textContent = ''
+    buttonE.remove()
+    start.appendChild(reStart)
     questionsContainer.appendChild(finalText)
 
   }
 }
 
-//finalGame(finalQuestions)
+
+
 
 form.addEventListener('submit', checkAnswer)
 
