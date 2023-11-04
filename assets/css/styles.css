@@ -218,7 +218,22 @@ button.Juega{
     height: 5em;
     font-size: 2em;
 }
-
+a.link-juega{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--blanco);
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    
+}
+a.link-juega:hover{
+    border-radius: 20px;
+    transform: scale(1.08);
+    background-color: var(--naranja);
+    transition: 1s;
+}
 /* targetas pagina de contacto */
 .alinear{
     display: flex;
