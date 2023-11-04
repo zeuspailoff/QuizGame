@@ -11,12 +11,6 @@
       "respuesta_correcta": "1972"
     },
     {
-      "pregunta": "¿Cuál es el nombre de la pelicula de la siguiente escena?",
-      "recurso": "http://127.0.0.1:5500/assets/recourses/img/la_vida_es_bella.gif",
-      "opciones": ["El Rey León", "La vida es bella", "Tangled", "Frozen"],
-      "respuesta_correcta": "La vida es bella"
-    },
-    {
       "pregunta": "¿Qué actor interpretó a Iron Man en el Universo Cinematográfico de Marvel?",
       "opciones": ["Chris Hemsworth", "Mark Ruffalo", "Robert Downey Jr.", "Chris Evans"],
       "respuesta_correcta": "Robert Downey Jr."
@@ -62,18 +56,6 @@
       "respuesta_correcta": "Jurassic Park"
     },
     {
-      "pregunta": "¿A que pelicula corresponde la siguiente escena?",
-      "recurso": "http://127.0.0.1:5500/assets/recourses/img/American_Beauty.gif",
-      "opciones": ["My Neighbor Totoro", "American Beauty", "Princess Mononoke", "Howl's Moving Castle"],
-      "respuesta_correcta": "American Beauty"
-    },
-    {
-      "pregunta": "¿Cuál es el nombre del siguiente actor?",
-      "recurso": "http://127.0.0.1:5500/assets/recourses/img/Babel.gif",
-      "opciones": ["Zac Efron", "Brad Pitt", "Leonardo Dicaprio", "Django"],
-      "respuesta_correcta": "Brad Pitt"
-    },
-    {
       "pregunta": "¿Qué película ganó el premio a la Mejor Película en los Premios de la Academia en 2019?",
       "opciones": ["Green Book", "Bohemian Rhapsody", "Black Panther", "The Favourite"],
       "respuesta_correcta": "Green Book"
@@ -82,12 +64,6 @@
       "pregunta": "¿Quién dirigió la trilogía de 'El Señor de los Anillos'?",
       "opciones": ["Steven Spielberg", "Peter Jackson", "George Lucas", "Christopher Nolan"],
       "respuesta_correcta": "Peter Jackson"
-    },
-    {
-      "pregunta": "¿A que pelicula corresponde la siguiente escena?",
-      "recurso": "http://127.0.0.1:5500/assets/recourses/img/el_bueno_el_feo_y_el_malo.gif",
-      "opciones": ["El bueno, el feo y el malo", "Alien", "The Terminator", "E.T. the Extra-Terrestrial"],
-      "respuesta_correcta": "El bueno, el feo y el malo"
     },
     {
       "pregunta": "¿Qué actor interpreta a Wolverine en la franquicia de películas de X-Men?",
@@ -103,18 +79,6 @@
       "pregunta": "¿Qué película de Christopher Nolan trata sobre los sueños?",
       "opciones": ["Inception", "Interstellar", "The Prestige", "Dunkirk"],
       "respuesta_correcta": "Inception"
-    },
-    {
-      "pregunta": "¿A que pelicula corresponde la siguiente escena?",
-      "recurso": "http://127.0.0.1:5500/assets/recourses/img/hombres_de_honor.gif",
-      "opciones": ["Troya", "Quentin Tarantino", "Hombres de honor", "El bosque perdido"],
-      "respuesta_correcta": "Hombres de honor"
-    },
-    {
-      "pregunta": "¿A que pelicula corresponde la siguiente escena?",
-      "recurso": "http://127.0.0.1:5500/assets/recourses/img/Malditos_Bastardos.gif",
-      "opciones": ["Psycho", "Malditos bastardos", "A Clockwork Orange", "Rosemary's Baby"],
-      "respuesta_correcta": "Malditos bastardos"
     },
     {
       "pregunta": "¿Cuál es la película de superhéroes que reúne a Iron Man, Capitán América, Thor y Hulk por primera vez?",
@@ -137,22 +101,11 @@
       "respuesta_correcta": "Joaquin Phoenix"
     },
     {
-      "pregunta": "¿A que pelicula corresponde la siguiente escena?",
-      "recurso": "http://127.0.0.1:5500/assets/recourses/img/O_brother_where_are_thou.gif",
-      "opciones": ["¿Donde estas hermano?", "Blade Runner", "Star Wars", "The Terminator"],
-      "respuesta_correcta": "¿Donde estas hermano?"
-    },
-    {
       "pregunta": "¿Quién es el director de la película 'Fight Club'?",
       "opciones": ["Christopher Nolan", "David Fincher", "Quentin Tarantino", "Martin Scorsese"],
       "respuesta_correcta": "David Fincher"
     },
-    {
-      "pregunta": "¿A que pelicula corresponde la siguiente escena?",
-      "recurso": "http://127.0.0.1:5500/assets/recourses/img/stranger_than_fiction.gif",
-      "opciones": ["The Silence of the Lambs", "Red Dragon", "Hannibal", "Más real que la ficción"],
-      "respuesta_correcta": "Más real que la ficción"
-    },
+ 
     {
       "pregunta": "¿Cuál es la película de Pixar sobre un ratón chef?",
       "opciones": ["Ratatouille", "Finding Nemo", "Up", "Toy Story"],
@@ -168,23 +121,13 @@
       "opciones": ["RoboCop", "The Terminator", "Blade Runner", "Aliens"],
       "respuesta_correcta": "The Terminator"
     },
-    {
-      "pregunta": "¿A que pelicula corresponde la siguiente escena?",
-      "recurso": "http://127.0.0.1:5500/assets/recourses/img/the_blues_brothers.gif",
-      "opciones": ["Paths of Glory", "The blues brothers", "A Clockwork Orange", "2001: A Space Odyssey"],
-      "respuesta_correcta": "The blues brothers"
-    },
+
     {
       "pregunta": "¿En qué película aparece el famoso personaje Tony Stark interpretado por Robert Downey Jr.?",
       "opciones": ["Iron Man", "Avengers: Endgame", "Captain America: Civil War", "The Avengers"],
       "respuesta_correcta": "Iron Man"
     },
-    {
-      "pregunta": "¿Cuál es el nombre del siguiente actor?",
-      "recurso": "http://127.0.0.1:5500/assets/recourses/img/the_cable_guy.gif",
-      "opciones": ["Jim carrey", "Zac Efron", "Elon Musk", "Jhonny Deep"],
-      "respuesta_correcta": "Jim Carrey"
-    },
+  
     {
       "pregunta": "¿Quién es el director de la película 'The Godfather'?",
       "opciones": ["Francis Ford Coppola", "Martin Scorsese", "Steven Spielberg", "Alfred Hitchcock"],
