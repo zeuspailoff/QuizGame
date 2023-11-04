@@ -651,12 +651,23 @@ h2.titulo {
     width: 100%;
 }
 .boton-enviar-respuestas {
+    height: 5em;
+    width: 15em;
     border-radius: 20px;
     background-color: var(--negro);
     color: var(--blanco);
     padding: 10px 20px;
     margin: 10px; 
     cursor: pointer;
+}
+button.boton-enviar-respuestas a{
+    color: var(--blanco);
+    text-decoration: none;
+}
+h2.score{
+   margin-left: 20px;
+    text-align: start;
+    
 }
 
 form {
