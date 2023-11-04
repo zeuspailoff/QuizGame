@@ -17,5 +17,5 @@ window.addEventListener('focus', () => {
 
   timeOut = setTimeout(() => {
     document.title = document.head.dataset.title
-  }, 1000);
+  }, 4000);
 })

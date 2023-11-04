@@ -1,83 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="../recourses/favicon/android-chrome-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../recourses/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../recourses/favicon/favicon-16x16.png">
-    <link rel="manifest" href="../recourses/favicon/site.webmanifest">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" href="/assets/css/styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/recourses/favicon-pizza/android-chrome-192x192.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/recourses/favicon-pizza/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/recourses/favicon-pizza/favicon-16x16.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <link rel="stylesheet" href="../css/styles.css" />
+  <title>PizzaQuiz</title>
 </head>
 
-
 <body>
+  <header>
+    <nav class="navegador">
+      <div class="aling-logo">
+        <ul class="logo">
+          <li>
+            <img id="logo" src="/assets/recourses/pizzacool/android-chrome-384x384.png" alt="" />
+          </li>
+        </ul>
+      </div>
+      <ul class="menu">
+        <li><a class="link-menu" href="/index.html">Home</a></li>
 
-    <header>
-        <nav class="navegador">
-            <div class="aling-logo">
-                <ul class="logo">
+        <li><a class="link-menu" href="./contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
 
+  <main>
 
-                    <li><img id="logo" src="/assets/recourses/favicon/android-chrome-192x192.png" alt=""></li>
-                </ul>
-            </div>
-            <ul class="menu">
+    <section class="audio">
+      <audio id="audioFondo" src="/assets/sonidos/NeonLights.mp3" autoplay loop></audio>
+      <button id="bSilencio"><img src="/assets/recourses/icons/icons8-boca-abierta-48.png" alt="Emiji sonido"></button>
 
-                <li><a class="link-menu" href="/index.html">Home</a></li>
-                <li><a class="link-menu" href="./ranking.html">Ranking</a></li>
-                <li><a class="link-menu" href="./contacto.html">Contacto</a></li>
+    </section>
+    <h2 class="score"> </h2>
+    <div class="contenedorPreguntas">
+      <div id="pregunta" class="encabezadoPreguntas">
+        <h3>Pregunta</h3>
+        <div class="preguntaPreguntas"></div>
+      </div>
+    </div>
 
-            </ul>
-        </nav>
+    <form action="/" class="Form-bajo" id="respuesta" name="pregunta">
+      <div class="show" id="opcion">
 
+      </div>
+      <button type="submit" class="boton-enviar-respuestas" id="Send" name="pregunta">
+        Enviar respuesta
+      </button>
+    </form>
+  </main>
 
-    </header>
+  <footer class="index-footer">
+    <a class="Hack" target="_blank" href="https://www.hackaboss.com/">Hack a Boss</a>
+    <p class="pfooter">Canarias | Barcelona | Madrid</p>
+  </footer>
+  <script src="../js/pestaña.js"></script>
+  <script type="module" src="../js/preguntas.js"></script>
+  <script src="../js/sonido.js"></script>
 
-    <main>
-        <div class="contenedorPreguntas">
-            <div class="encabezadoPreguntas">
-                <div class="categoriaPreguntas" id="categoria">
-                    Categoria
-                </div>
-                <div class="preguntaPreguntas" id="Pregunta">
-                    Pregunta
-                </div>
-                <img src="../recourses/img/Babel.gif" class="imagenPregunta">
-            </div>
-        </div>
-        <form action="submit">
-            <div class="botonPregunta" id="botonPregunta1">
-                <input type="checkbox" id="respuesta1">
-                <label for="respuesta1">prueba</label>
-            </div>
-            <div class="botonPregunta" id="botonPregunta2">
-                <input type="checkbox" id="respuesta2">
-                <label for="respuesta2">prueba</label>
-            </div>
-            <div class="botonPregunta" id="botonPregunta3">
-                <input type="checkbox" id="respuesta3">
-                <label for="respuesta3">prueba</label>
-            </div>
-            <div class="botonPregunta" id="botonPregunta4">
-                <input type="checkbox" id="respuesta4">
-                <label for="respuesta4">prueba</label>
-            </div>
-            <button type="submit" class="boton-enviar-respuestas">Enviar respuesta</button>
-        </form>
-    </main>
-
-
-    <footer class="index-footer">
-        <a class="Hack" href="https://www.hackaboss.com/">Hack a Boss</a>
-        <p class="pfooter">Canarias | Barcelona | Madrid</p>
-    </footer>
-    <script src="../js/pestaña.js"></script>
-    <script src="../js/preguntas.js"></script>
 </body>
 
 </html>
