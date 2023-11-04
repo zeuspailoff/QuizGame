@@ -1,3 +1,5 @@
+ //----------------------------------- 1 intento abraham -------------------------------------
+
 /*let preguntas2 = true;
 let juegoTermino = true;
 let reiniciamosJuego = true;
@@ -19,6 +21,7 @@ const pregunta = [ciencias,cultura, deportes, life_hacks, peliculas,  musica];
 class preguntas{
     
 }*/
+//----------------------------------------------------- 1 intento skarlett ----------------------------------------
 /*
 function escogerPreguntaRandom() {
     escogerPregunta(Math.floor(Math.random() * Array.length))

@@ -321,6 +321,10 @@ button#name{
     background-color: var(--negro);
     border: none;
 }
+.cerebrito{
+    margin-top: 7em;
+    width: 10em;
+}
 /*footer */
 
   .index-footer{
