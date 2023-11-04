@@ -25,7 +25,7 @@ const divShow = document.querySelector('.show')
 const form = document.forms.respuesta
 let correctAnswer = ''
 let questions = ''
-
+// recorremos los json para elegir las preguntas
 const randomQuestionEachJSON = async (urls) => {
   const finalQuestions = []
 
@@ -37,6 +37,7 @@ const randomQuestionEachJSON = async (urls) => {
     if (preguntas) {
       const ramdomI = Math.floor(Math.random() * preguntas.length)
       const question = preguntas[ramdomI]
+      //creamos el objeto para trabajar con el 
       finalQuestions.push({
         question: question.pregunta,
         options: question.opciones,
@@ -49,7 +50,7 @@ const randomQuestionEachJSON = async (urls) => {
 }
 
 randomQuestionEachJSON(jsonCategoriasURLs)
-
+//empezamos a crear las preguntas
 const renderQuestion = (obj, index) => {
   const element = obj[index]
   const quest = document.querySelector('.preguntaPreguntas')
@@ -58,7 +59,7 @@ const renderQuestion = (obj, index) => {
 
   const header = document.getElementById('pregunta')
   header.appendChild(quest)
-
+// creamos los contenedores para introducir los datos
   element.options.forEach((opcion, key) => {
     const opciones = document.createElement('div')
     opciones.className = 'botonPregunta'
@@ -81,7 +82,7 @@ const renderQuestion = (obj, index) => {
     opciones.appendChild(inputRadio)
   })
 }
-
+//creamos la base para poder iniciar el juego y tener los datos necesarios para verificar respuestas 
 const iniciarQuiz = async () => {
   questions = await randomQuestionEachJSON(jsonCategoriasURLs)
   console.log(questions[numPregunta])
@@ -96,12 +97,13 @@ const iniciarQuiz = async () => {
 iniciarQuiz()
 console.log(`la respuesta correcta es ${correctAnswer}`)
 
-
+// verificamos las respuestas del usuario
 const checkAnswer = (e) => {
   e.preventDefault()
   const userAnswer = form.elements.user_answer.value
   const chooses = document.querySelectorAll('.choose')
  
+  //creamos el flag para ayudarnos a saber la respuesta 
   let flag = 0;
   if(correctAnswer === userAnswer){
     correctas++
@@ -110,12 +112,12 @@ const checkAnswer = (e) => {
     else {
       flag = 2;
     }
-
+//damos tiempo a ver si fallaste o acertaste 
     setTimeout(() => {
       divShow.textContent = ''
       renderQuestion(questions, numPregunta)
     }, 4000)
-
+// usamos el flag para comprobar que clase añadir si la que pone color verde o rojo
     chooses.forEach(element => {
       if (element.value === userAnswer) {
         if (flag === 1) {
@@ -129,7 +131,7 @@ const checkAnswer = (e) => {
     numPregunta++
     finalGame()
 }
-
+// si terminamos con el array de preguntas se acaba el juego y mosatramos el mensaje 
 const finalGame = () => {
   if(numPregunta === 5){
     const questionsContainer = document.querySelector('.contenedorPreguntas')
@@ -137,6 +139,7 @@ const finalGame = () => {
     finalText.className = 'textoFinal'
     finalText.textContent = `${userName} has conseguido ${correctas} de 6 preguntas`
     questionsContainer.textContent = ''
+    divShow.textContent = ''
     questionsContainer.appendChild(finalText)
 
   }
