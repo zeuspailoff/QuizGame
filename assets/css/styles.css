@@ -340,8 +340,12 @@ button#name {
 }
 .audio{
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: end;
+    width: 50vw;
+    margin-top: 0;
+    padding-top: 0;
+    align-self: flex-start;
 }
 #bSilencio{
     background-color: var(--negro);
@@ -702,7 +706,7 @@ button.boton-enviar-respuestas a{
 }
 h2.score{
    margin-left: 20px;
-    text-align: start;
+    text-align: left;
     
 }
 
@@ -725,4 +729,19 @@ form {
 }
 .fail{
     background-color: red;
+}
+.error{
+    color: red;
+    text-align: center;
+    font-size: 20px;
+}
+.puntage{
+    display: flex;
+    justify-content: start;
+    text-align: right;
+    width: 50vw;
+}
+.scoreIconoMusica{
+    display: flex;
+    
 }
