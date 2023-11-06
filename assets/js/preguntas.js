@@ -130,7 +130,7 @@ const checkAnswer = (e) => {
       divShow.textContent = ''
       renderQuestion(questions, numPregunta)
       console.log(`la respuesta correcta es ${correctAnswer}`)
-    }, 4000)
+    }, 2000)
 // usamos el flag para comprobar que clase añadir si la que pone color verde o rojo
     chooses.forEach(element => {
       if (element.value === userAnswer) {
