@@ -122,7 +122,7 @@ const checkAnswer = (e) => {
     flag = 1;  
     }
     else {
-      
+      err.innerHTML = "";
       flag = 2;
     }
 //damos tiempo a ver si fallaste o acertaste 
