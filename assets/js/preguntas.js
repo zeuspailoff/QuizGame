@@ -105,15 +105,24 @@ const checkAnswer = (e) => {
   const userAnswer = form.elements.user_answer.value
   const chooses = document.querySelectorAll('.choose')
   const score = document.querySelector('.score')
- 
+  const err = document.querySelector('.error')
   //creamos el flag para ayudarnos a saber la respuesta 
   let flag = 0;
-  if(correctAnswer === userAnswer){
+  if(userAnswer.length === 0){
+    // evitamos respuesta vacia 
+    //añadimos una clase error
+
+    err.innerHTML = 'Tiene que seleccionar una respuesta'
+
+    return false
+  }else if(correctAnswer === userAnswer){
     correctas++
+    err.innerHTML = "";
     score.innerHTML = `Respuestas Correctas: ${correctas}`
     flag = 1;  
     }
     else {
+      
       flag = 2;
     }
 //damos tiempo a ver si fallaste o acertaste 
