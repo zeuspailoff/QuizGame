@@ -3,6 +3,7 @@ let timeOut
 const missYouMessage = '😢 Tramposo'
 const comeBackMessage = '❤️Tu Puedes'
 
+
 window.addEventListener('blur', () => {
   timeOut = setTimeout(() => {
     document.title = missYouMessage
