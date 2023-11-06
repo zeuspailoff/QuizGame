@@ -1,0 +1,254 @@
+{
+    "preguntas": [
+      {
+        "pregunta": "¿En qué deporte se utiliza un bate y una pelota?",
+        "opciones": ["Fútbol", "Béisbol", "Tenis", "Baloncesto"],
+        "respuesta_correcta": "Béisbol"
+      },
+      {
+        "pregunta": "¿En qué país se originó el cricket?",
+        "opciones": ["Australia", "Inglaterra", "India", "Sudáfrica"],
+        "respuesta_correcta": "Inglaterra"
+      },
+      {
+        "pregunta": "¿Cuál es el deporte nacional de Canadá?",
+        "opciones": ["Hockey sobre hielo", "Fútbol", "Rugby", "Baloncesto"],
+        "respuesta_correcta": "Hockey sobre hielo"
+      },
+      {
+        "pregunta": "¿En qué año se celebró la primera Copa Mundial de Fútbol?",
+        "opciones": ["1928", "1930", "1934", "1938"],
+        "respuesta_correcta": "1930"
+      },
+      {
+        "pregunta": "¿Quién es considerado el \"Rey\" del tenis?",
+        "opciones": ["Roger Federer", "Rafael Nadal", "Novak Djokovic", "Bjorn Borg"],
+        "respuesta_correcta": "Roger Federer"
+      },
+      {
+        "pregunta": "¿Cuál es el deporte que se juega en un campo con una pequeña bola blanca y un palo llamado putter?",
+        "opciones": ["Golf", "Polo", "Croquet", "Béisbol"],
+        "respuesta_correcta": "Golf"
+      },
+      {
+        "pregunta": "¿Qué equipo de baloncesto de la NBA ha ganado más campeonatos?",
+        "opciones": ["Los Angeles Lakers", "Chicago Bulls", "Boston Celtics", "Golden State Warriors"],
+        "respuesta_correcta": "Los Angeles Lakers"
+      },
+      {
+        "pregunta": "¿En qué deporte se utiliza un arco y flechas?",
+        "opciones": ["Tiro con arco", "Esgrima", "Biatlón", "Lucha libre"],
+        "respuesta_correcta": "Tiro con arco"
+      },
+      {
+        "pregunta": "¿Cuál es el evento de atletismo más largo en los Juegos Olímpicos?",
+        "opciones": ["100 metros", "Maratón", "Salto de altura", "Lanzamiento de disco"],
+        "respuesta_correcta": "Maratón"
+      },
+      {
+        "pregunta": "¿Qué equipo ganó la última Copa Mundial de Rugby en 2019?",
+        "opciones": ["Inglaterra", "Sudáfrica", "Nueva Zelanda", "Australia"],
+        "respuesta_correcta": "Sudáfrica"
+      },
+      {
+        "pregunta": "¿Qué deporte se juega en una cancha con paredes y una pequeña pelota de goma?",
+        "opciones": ["Squash", "Racquetball", "Frontón", "Paddle"],
+        "respuesta_correcta": "Squash"
+      },
+      {
+        "pregunta": "¿Quién ganó el último Super Bowl (2023)?",
+        "opciones": ["Kansas City Chiefs", "Los Angeles Rams", "Tampa Bay Buccaneers", "New England Patriots"],
+        "respuesta_correcta": "Los Angeles Rams"
+      },
+      {
+        "pregunta": "¿Cuál es el deporte nacional de Japón?",
+        "opciones": ["Sumo", "Kendo", "Judo", "Karate"],
+        "respuesta_correcta": "Sumo"
+      },
+      {
+        "pregunta": "¿En qué deporte se utiliza una tabla y velas para deslizarse sobre el agua?",
+        "opciones": ["Surf", "Windsurf", "Kitesurf", "Esquí acuático"],
+        "respuesta_correcta": "Windsurf"
+      },
+      {
+        "pregunta": "¿Cuántos jugadores hay en un equipo de fútbol soccer?",
+        "opciones": ["9", "10", "11", "12"],
+        "respuesta_correcta": "11"
+      },
+      {
+        "pregunta": "¿Qué país ha ganado más medallas en los Juegos Olímpicos de Verano?",
+        "opciones": ["Estados Unidos", "China", "Rusia", "Alemania"],
+        "respuesta_correcta": "Estados Unidos"
+      },
+      {
+        "pregunta": "¿En qué deporte se utiliza un tatami?",
+        "opciones": ["Judo", "Taekwondo", "Karate", "Boxeo"],
+        "respuesta_correcta": "Judo"
+      },
+      {
+        "pregunta": "¿Cuál es el deporte más popular en la India?",
+        "opciones": ["Cricket", "Hockey sobre césped", "Fútbol", "Badminton"],
+        "respuesta_correcta": "Cricket"
+      },
+      {
+        "pregunta": "¿Cuál de los siguientes jugadores de baloncesto es conocido como \"The Greek Freak\"?",
+        "opciones": ["LeBron James", "Stephen Curry", "Giannis Antetokounmpo", "Kevin Durant"],
+        "respuesta_correcta": "Giannis Antetokounmpo"
+      },
+      {
+        "pregunta": "¿En qué deporte se utiliza una pelota pequeña llamada \"jack\" o \"boliche\"?",
+        "opciones": ["Curling", "Petanca", "Croquet", "Bochas"],
+        "respuesta_correcta": "Petanca"
+      },
+      {
+        "pregunta": "¿Cuál es el equipo de fútbol más exitoso de Brasil en términos de campeonatos nacionales?",
+        "opciones": ["Flamengo", "Santos", "Palmeiras", "Corinthians"],
+        "respuesta_correcta": "Flamengo"
+      },
+      {
+        "pregunta": "¿Qué país ganó la Copa Mundial Femenina de Fútbol en 2019?",
+        "opciones": ["Estados Unidos", "Francia", "Alemania", "Holanda"],
+        "respuesta_correcta": "Estados Unidos"
+      },
+      {
+        "pregunta": "¿En qué deporte se utiliza un campo llamado \"pista\" y una red dividida por una franja llamada \"neto\"?",
+        "opciones": ["Tenis", "Bádminton", "Squash", "Vóley"],
+        "respuesta_correcta": "Bádminton"
+      },
+      {
+        "pregunta": "¿Qué golfista es conocido como \"Lefty\"?",
+        "opciones": ["Tiger Woods", "Rory McIlroy", "Phil Mickelson", "Jordan Spieth"],
+        "respuesta_correcta": "Phil Mickelson"
+      },
+      {
+        "pregunta": "¿En qué deporte se utiliza una raqueta para golpear una pelota sobre una red?",
+        "opciones": ["Tenis", "Golf", "Bádminton", "Polo"],
+        "respuesta_correcta": "Tenis"
+      },
+      {
+        "pregunta": "¿Cuál es el equipo de fútbol más antiguo del mundo?",
+        "opciones": ["Manchester United", "Real Madrid", "Sheffield FC", "Barcelona"],
+        "respuesta_correcta": "Sheffield FC"
+      },
+      {
+        "pregunta": "¿En qué deporte se utiliza un arnés y una cometa para deslizarse sobre el agua?",
+        "opciones": ["Kitesurf", "Windsurf", "Esquí acuático", "Surf"],
+        "respuesta_correcta": "Kitesurf"
+      },
+      {
+        "pregunta": "¿Cuál es el torneo de golf más prestigioso del mundo?",
+        "opciones": ["Masters de Augusta", "US Open", "The Open Championship", "PGA Championship"],
+        "respuesta_correcta": "Masters de Augusta"
+      },
+      {
+        "pregunta": "¿En qué deporte se utiliza una pelota pequeña y un mazo para golpearla?",
+        "opciones": ["Críquet", "Croquet", "Polo", "Béisbol"],
+        "respuesta_correcta": "Croquet"
+      },
+      {
+        "pregunta": "¿Cuál es el deporte nacional de México?",
+        "opciones": ["Fútbol", "Béisbol", "Charrería", "Lucha libre"],
+        "respuesta_correcta": "Charrería"
+      },
+      {
+        "pregunta": "¿En qué deporte se utiliza un disco volador?",
+        "opciones": ["Ultimate Frisbee", "Golf", "Rugby", "Hockey sobre hielo"],
+        "respuesta_correcta": "Ultimate Frisbee"
+      },
+      {
+        "pregunta": "¿Cuál es el equipo de fútbol español conocido como 'Los Merengues'?",
+        "opciones": ["Barcelona", "Real Madrid", "Atlético de Madrid", "Valencia"],
+        "respuesta_correcta": "Real Madrid"
+      },
+      {
+        "pregunta": "¿En qué deporte se utiliza un casco y patines para golpear a los oponentes?",
+        "opciones": ["Hockey sobre hielo", "Rugby", "Fútbol americano", "Boxeo"],
+        "respuesta_correcta": "Hockey sobre hielo"
+      },
+      {
+        "pregunta": "¿Qué país es conocido por su dominio en el deporte del cricket?",
+        "opciones": ["India", "Inglaterra", "Australia", "Sudáfrica"],
+        "respuesta_correcta": "India"
+      },
+      {
+        "pregunta": "¿En qué deporte se utiliza una bola pesada para derribar los bolos?",
+        "opciones": ["Bolos", "Bowling", "Críquet", "Petanca"],
+        "respuesta_correcta": "Bowling"
+      },
+      {
+        "pregunta": "¿Cuál es el deporte nacional de Japón que se juega en un anillo?",
+        "opciones": ["Sumo", "Kendo", "Judo", "Karate"],
+        "respuesta_correcta": "Sumo"
+      },
+      {
+        "pregunta": "¿En qué deporte se utiliza una red alta y un volante?",
+        "opciones": ["Vóley", "Bádminton", "Tenis de mesa", "Squash"],
+        "respuesta_correcta": "Bádminton"
+      },
+      {
+        "pregunta": "¿Cuál es el equipo de fútbol alemán conocido como 'Die Mannschaft'?",
+        "opciones": ["Bayern de Múnich", "Borussia Dortmund", "Hamburgo", "Selección alemana"],
+        "respuesta_correcta": "Selección alemana"
+      },
+      {
+        "pregunta": "¿En qué deporte se utiliza una pala para golpear una pelota contra una pared?",
+        "opciones": ["Pádel", "Squash", "Racquetball", "Frontenis"],
+        "respuesta_correcta": "Pádel"
+      },
+      {
+        "pregunta": "¿Cuál es el equipo de fútbol argentino conocido como 'La Albiceleste'?",
+        "opciones": ["River Plate", "Boca Juniors", "Independiente", "Selección argentina"],
+        "respuesta_correcta": "Selección argentina"
+      },
+      {
+        "pregunta": "¿En qué deporte se utiliza una bola pequeña llamada 'jack' y bolas pesadas?",
+        "opciones": ["Petanca", "Bolos", "Croquet", "Bochas"],
+        "respuesta_correcta": "Petanca"
+      },
+      {
+        "pregunta": "¿Cuál es el deporte nacional de España?",
+        "opciones": ["Fútbol", "Tenis", "Baloncesto", "Pelota vasca"],
+        "respuesta_correcta": "Pelota vasca"
+      },
+      {
+        "pregunta": "¿En qué deporte se utiliza un stick para golpear una pelota en un campo de césped?",
+        "opciones": ["Críquet", "Hockey sobre césped", "Béisbol", "Croquet"],
+        "respuesta_correcta": "Hockey sobre césped"
+      },
+      {
+        "pregunta": "¿Cuál es el equipo de fútbol brasileño conocido como 'El Tricolor'?",
+        "opciones": ["Fluminense", "Santos", "Palmeiras", "São Paulo"],
+        "respuesta_correcta": "São Paulo"
+      },
+      {
+        "pregunta": "¿En qué deporte se utiliza una bola grande y pesada para derribar los bolos?",
+        "opciones": ["Bolos", "Bowling", "Petanca", "Béisbol"],
+        "respuesta_correcta": "Bolos"
+      },
+      {
+        "pregunta": "¿Cuál es el equipo de fútbol italiano conocido como 'La Vecchia Signora'?",
+        "opciones": ["Milan", "Inter de Milán", "Juventus", "Roma"],
+        "respuesta_correcta": "Juventus"
+      },
+      {
+        "pregunta": "¿En qué deporte se utiliza un paracaídas para deslizarse sobre el agua?",
+        "opciones": ["Esquí acuático", "Paravelismo", "Kitesurf", "Windsurf"],
+        "respuesta_correcta": "Paravelismo"
+      },
+      {
+        "pregunta": "¿Cuál es el equipo de fútbol inglés conocido como 'Los Diablos Rojos'?",
+        "opciones": ["Chelsea", "Liverpool", "Manchester City", "Manchester United"],
+        "respuesta_correcta": "Manchester United"
+      },
+      {
+        "pregunta": "¿En qué deporte se utiliza un arco y una flecha?",
+        "opciones": ["Tiro con arco", "Esgrima", "Biatlón", "Lucha libre"],
+        "respuesta_correcta": "Tiro con arco"
+      },
+      {
+        "pregunta": "¿Cuál es el equipo de fútbol argentino conocido como 'Los Millonarios'?",
+        "opciones": ["River Plate", "Boca Juniors", "Independiente", "Estudiantes"],
+        "respuesta_correcta": "River Plate"
+    }
+    ]
+  }

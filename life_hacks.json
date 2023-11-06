@@ -1,0 +1,147 @@
+[
+    {
+        "pregunta": "¿Cuál es un truco para enfriar rápidamente una bebida sin usar hielo?",
+        "opciones": ["Meterla en un recipiente con agua y sal", "Agitarla fuertemente", "Soplarle aire con un secador de pelo", "Enterrarla en la arena"],
+        "respuesta_correcta": "Meterla en un recipiente con agua y sal"
+    },
+    {
+        "pregunta": "¿Cómo evitar que los anteojos se empañen al usar mascarilla?",
+        "opciones": ["Aplicar jabón de platos en las lentes y luego limpiarlas", "Poner cinta adhesiva en la parte superior de la mascarilla", "Colocar un pañuelo de papel en el interior de la mascarilla", "No hay forma de evitarlo"],
+        "respuesta_correcta": "Aplicar jabón de platos en las lentes y luego limpiarlas"
+    },
+    {
+        "pregunta": "¿Cuál es un truco para cortar cebollas sin llorar?",
+        "opciones": ["Masticar chicle mientras cortas la cebolla", "Sumergir la cebolla en agua antes de cortarla", "Usar lentes de sol", "Cortarla bajo el agua corriente"],
+        "respuesta_correcta": "Masticar chicle mientras cortas la cebolla"
+    },
+    {
+        "pregunta": "¿Cómo mantener el pan fresco por más tiempo?",
+        "opciones": ["Guardarlo con una rebanada de apio", "Congelarlo", "Envolverlo en papel aluminio", "Dejarlo fuera al aire"],
+        "respuesta_correcta": "Guardarlo con una rebanada de apio"
+    },
+    {
+        "pregunta": "¿Cuál es un truco para evitar que los cables se enreden?",
+        "opciones": ["Usar clips para sujetarlos", "Rociarlos con spray para el cabello", "Pasarlos por un sorbete", "Dejarlos sueltos"],
+        "respuesta_correcta": "Pasarlos por un sorbete"
+    },
+    {
+        "pregunta": "¿Cómo eliminar olores desagradables de los zapatos?",
+        "opciones": ["Poner bolsitas de té dentro de los zapatos", "Rellenarlos con periódico mojado", "Colocarlos en el congelador durante la noche", "Dejarlos al sol durante horas"],
+        "respuesta_correcta": "Rellenarlos con periódico mojado"
+    },
+    {
+        "pregunta": "¿Cuál es un truco para quitar manchas de vino tinto?",
+        "opciones": ["Cubrir la mancha con sal y dejar reposar", "Frotar la mancha con un paño empapado en vinagre", "Aplicar pasta de dientes sobre la mancha", "Lavar la mancha con agua caliente"],
+        "respuesta_correcta": "Cubrir la mancha con sal y dejar reposar"
+    },
+    {
+        "pregunta": "¿Cómo evitar que los plátanos maduren demasiado rápido?",
+        "opciones": ["Envolver el extremo del tallo con plástico", "Guardarlos en la nevera", "Separarlos y envolverlos individualmente", "Nada, maduran rápidamente de todas formas"],
+        "respuesta_correcta": "Envolver el extremo del tallo con plástico"
+    },
+    {
+        "pregunta": "¿Cuál es un truco para abrir fácilmente un tarro cerrado?",
+        "opciones": ["Golpear el borde del tarro con una cuchara de madera", "Sumergir el tarro en agua caliente durante unos minutos", "Usar guantes de goma para un mejor agarre", "Dejar el tarro reposar boca abajo durante unos minutos"],
+        "respuesta_correcta": "Sumergir el tarro en agua caliente durante unos minutos"
+    },
+    {
+        "pregunta": "¿Cómo evitar que las papas se pongan verdes?",
+        "opciones": ["Guardarlas en un lugar oscuro", "Cubrirlas con papel de aluminio", "Colocarlas en la nevera", "Nada, las papas siempre se ponen verdes con el tiempo"],
+        "respuesta_correcta": "Guardarlas en un lugar oscuro"
+    },
+    {
+        "pregunta": "¿Cuál es un truco para evitar que las galletas se vuelvan blandas?",
+        "opciones": ["Guardarlas en un recipiente con arroz", "Poner una rodaja de pan en el recipiente", "Congelarlas", "Nada, las galletas siempre se vuelven blandas con el tiempo"],
+        "respuesta_correcta": "Guardarlas en un recipiente con arroz"
+    },
+    {
+        "pregunta": "¿Cómo quitar un chicle pegado?",
+        "opciones": ["Congelarlo con hielo y luego raspar", "Aplicar aceite de cocina y frotar", "Cortar el pelo alrededor del chicle", "Dejarlo secar y luego despegar"],
+        "respuesta_correcta": "Congelarlo con hielo y luego raspar"
+    },
+    {
+        "pregunta": "¿Cuál es un truco para evitar que las velas goteen cera?",
+        "opciones": ["Colocar sal en la base de la vela", "Congelar la vela antes de encenderla", "Poner un vaso alrededor de la vela", "Nada, todas las velas gotean cera eventualmente"],
+        "respuesta_correcta": "Congelar la vela antes de encenderla"
+    },
+    {
+        "pregunta": "¿Cómo quitar el olor a ajo de las manos?",
+        "opciones": ["Frotar las manos con perejil fresco", "Lavarse las manos con pasta de dientes", "Frotar las manos con acero inoxidable", "Esperar a que el olor se vaya por sí mismo"],
+        "respuesta_correcta": "Frotar las manos con acero inoxidable"
+    },
+    {
+        "pregunta": "¿Cuál es un truco para enfriar la habitación sin aire acondicionado?",
+        "opciones": ["Colocar un tazón de hielo frente al ventilador", "Cerrar todas las ventanas", "Encender todas las luces", "Nada, sin aire acondicionado no hay forma de enfriar la habitación"],
+        "respuesta_correcta": "Colocar un tazón de hielo frente al ventilador"
+    },
+    {
+        "pregunta": "¿Cómo evitar que las puertas chirríen?",
+        "opciones": ["Frotar un lápiz grafito en las bisagras", "Poner aceite de cocina en las bisagras", "Cerrar la puerta suavemente para evitar desgaste", "Nada, todas las puertas chirrían eventualmente"],
+        "respuesta_correcta": "Frotar un lápiz grafito en las bisagras"
+    },
+    {
+        "pregunta": "¿Cuál es un truco para evitar que las medias se corran?",
+        "opciones": ["Ponerlas en el congelador antes de usarlas por primera vez", "Pasarlas por un poco de esmalte de uñas", "Guardarlas en una bolsa de plástico", "Nada, las medias siempre se corren"],
+        "respuesta_correcta": "Pasarlas por un poco de esmalte de uñas"
+    },
+    {
+        "pregunta": "¿Cómo quitar marcas de agua en la madera?",
+        "opciones": ["Frotar con una mezcla de pasta de dientes y bicarbonato de sodio", "Secar con un secador de pelo", "Lijar la superficie", "Dejar que se seque por sí mismo"],
+        "respuesta_correcta": "Frotar con una mezcla de pasta de dientes y bicarbonato de sodio"
+    },
+    {
+        "pregunta": "¿Cuál es un truco para evitar que los espejos se empañen?",
+        "opciones": ["Frotarlos con jabón y luego limpiarlos", "Secarlos con un paño caliente", "Pasarles un trapo con vinagre", "Nada, los espejos siempre se empañan en ambientes húmedos"],
+        "respuesta_correcta": "Frotarlos con jabón y luego limpiarlos"
+    },
+    {
+        "pregunta": "¿Cómo evitar que las flores cortadas se marchiten rápidamente?",
+        "opciones": ["Agregar una aspirina al agua del florero", "Cortar los tallos en ángulo", "Dejar las hojas sumergidas en el agua", "Nada, las flores siempre se marchitan con el tiempo"],
+        "respuesta_correcta": "Agregar una aspirina al agua del florero"
+    },
+    {
+        "pregunta": "¿Cuál es un truco para evitar que las sábanas se deslicen del colchón?",
+        "opciones": ["Poner gomas elásticas en las esquinas del colchón", "Pegarlas con cinta adhesiva", "Plancharlas para que se adhieran al colchón", "Nada, las sábanas siempre se deslizan"],
+        "respuesta_correcta": "Poner gomas elásticas en las esquinas del colchón"
+    },
+    {
+        "pregunta": "¿Cómo evitar que las hormigas invadan la despensa?",
+        "opciones": ["Poner cáscaras de pepino alrededor de los alimentos", "Colocar vasos con agua cerca de los alimentos", "Rociar vinagre alrededor de los estantes", "Nada, las hormigas siempre encuentran una forma de entrar"],
+        "respuesta_correcta": "Poner cáscaras de pepino alrededor de los alimentos"
+    },
+    {
+        "pregunta": "¿Cuál es un truco para evitar que los zapatos huelan mal?",
+        "opciones": ["Poner bolsitas de té usadas dentro de los zapatos", "Congelar los zapatos durante la noche", "Lavar los zapatos frecuentemente", "Nada, los zapatos siempre huelen mal después de un tiempo de uso"],
+        "respuesta_correcta": "Poner bolsitas de té usadas dentro de los zapatos"
+    },
+    {
+        "pregunta": "¿Cómo evitar que las toallas se vuelvan ásperas después de lavarlas?",
+        "opciones": ["Agregar vinagre al ciclo de enjuague", "Secarlas al sol en lugar de usar secadora", "Plancharlas para suavizar las fibras", "Nada, las toallas siempre se vuelven ásperas con el tiempo"],
+        "respuesta_correcta": "Agregar vinagre al ciclo de enjuague"
+    },
+    {
+        "pregunta": "¿Cuál es un truco para evitar que las gafas de sol se rayen?",
+        "opciones": ["Guardarlas en un estuche cuando no se usan", "Limpiarlas con papel de seda", "Ponerlas en un bolsillo suelto en lugar de colgarlas", "Nada, las gafas de sol siempre se rayan eventualmente"],
+        "respuesta_correcta": "Guardarlas en un estuche cuando no se usan"
+    },
+    {
+        "pregunta": "¿Cómo quitar manchas de tinta de la ropa?",
+        "opciones": ["Aplicar desodorante en la mancha y luego lavar", "Frotar la mancha con alcohol", "Lavar la prenda con agua caliente", "Nada, las manchas de tinta son imposibles de quitar"],
+        "respuesta_correcta": "Frotar la mancha con alcohol"
+    },
+    {
+        "pregunta": "¿Cuál es un truco para evitar que los auriculares se enreden?",
+        "opciones": ["Enrollarlos correctamente y sujetarlos con un clip", "Sumergirlos en agua caliente para ablandar los cables", "Enrollarlos alrededor del teléfono o reproductor de música", "Nada, los auriculares siempre se enredan"],
+        "respuesta_correcta": "Enrollarlos correctamente y sujetarlos con un clip"
+    },
+    {
+        "pregunta": "¿Cómo evitar que las frutas cortadas se oxiden?",
+        "opciones": ["Rociarlas con jugo de limón", "Guardarlas en un recipiente hermético", "Cubrirlas con plástico adherente", "Nada, las frutas siempre se oxidan después de ser cortadas"],
+        "respuesta_correcta": "Rociarlas con jugo de limón"
+    },
+    {
+        "pregunta": "¿Cuál es un truco para quitar etiquetas adhesivas fácilmente?",
+        "opciones": ["Calentar la etiqueta con un secador de pelo y luego despegarla", "Frotar la etiqueta con aceite de cocina", "Rociar la etiqueta con vinagre", "Nada, las etiquetas adhesivas son difíciles de quitar"],
+        "respuesta_correcta": "Calentar la etiqueta con un secador de pelo"
+    }
+]

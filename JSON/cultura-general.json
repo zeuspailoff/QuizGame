@@ -1,0 +1,254 @@
+{
+    "preguntas": [
+      {
+        "pregunta": "¿En qué año ocurrió la Revolución Francesa?",
+        "opciones": ["1789", "1799", "1804", "1815"],
+        "respuesta_correcta": "1789"
+      },
+      {
+        "pregunta": "¿Cuál es el metal más abundante en la corteza terrestre?",
+        "opciones": ["Hierro", "Aluminio", "Cobre", "Plomo"],
+        "respuesta_correcta": "Aluminio"
+      },
+      {
+        "pregunta": "¿Cuál es el océano más grande del mundo?",
+        "opciones": ["Atlántico", "Índico", "Ártico", "Pacífico"],
+        "respuesta_correcta": "Pacífico"
+      },
+      {
+        "pregunta": "¿Quién pintó la Mona Lisa?",
+        "opciones": ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Claude Monet"],
+        "respuesta_correcta": "Leonardo da Vinci"
+      },
+      {
+        "pregunta": "¿En qué continente se encuentra el río Nilo?",
+        "opciones": ["África", "Asia", "Europa", "América"],
+        "respuesta_correcta": "África"
+      },
+      {
+        "pregunta": "¿Cuál es el país más grande del mundo en términos de territorio?",
+        "opciones": ["Estados Unidos", "Rusia", "China", "Canadá"],
+        "respuesta_correcta": "Rusia"
+      },
+      {
+        "pregunta": "¿Cuál es el instrumento musical más antiguo del mundo?",
+        "opciones": ["Violín", "Flauta", "Lira", "Tambor"],
+        "respuesta_correcta": "Flauta"
+      },
+      {
+        "pregunta": "¿Qué científico formuló la teoría de la relatividad?",
+        "opciones": ["Isaac Newton", "Albert Einstein", "Galileo Galilei", "Marie Curie"],
+        "respuesta_correcta": "Albert Einstein"
+      },
+      {
+        "pregunta": "¿En qué año se fundó la Organización de las Naciones Unidas (ONU)?",
+        "opciones": ["1945", "1955", "1965", "1975"],
+        "respuesta_correcta": "1945"
+      },
+      {
+        "pregunta": "¿Quién escribió la obra 'Romeo y Julieta'?",
+        "opciones": ["William Shakespeare", "Jane Austen", "Charles Dickens", "F. Scott Fitzgerald"],
+        "respuesta_correcta": "William Shakespeare"
+      },
+      {
+        "pregunta": "¿En qué año llegó el hombre a la luna por primera vez?",
+        "opciones": ["1961", "1965", "1969", "1973"],
+        "respuesta_correcta": "1969"
+      },
+      {
+        "pregunta": "¿Cuál es el metal más caro del mundo?",
+        "opciones": ["Platino", "Oro", "Rodio", "Paladio"],
+        "respuesta_correcta": "Rodio"
+      },
+      {
+        "pregunta": "¿Quién fue el primer presidente de Estados Unidos?",
+        "opciones": ["Thomas Jefferson", "George Washington", "John Adams", "James Madison"],
+        "respuesta_correcta": "George Washington"
+      },
+      {
+        "pregunta": "¿En qué año terminó la Segunda Guerra Mundial?",
+        "opciones": ["1943", "1945", "1947", "1950"],
+        "respuesta_correcta": "1945"
+      },
+      {
+        "pregunta": "¿Cuál es el instrumento musical principal en una orquesta sinfónica?",
+        "opciones": ["Piano", "Violín", "Flauta", "Violonchelo"],
+        "respuesta_correcta": "Violín"
+      },
+      {
+        "pregunta": "¿Cuál es la montaña más alta del mundo?",
+        "opciones": ["Monte Kilimanjaro", "Monte Everest", "Monte McKinley", "Monte Fuji"],
+        "respuesta_correcta": "Monte Everest"
+      },
+      {
+        "pregunta": "¿Quién pintó 'La noche estrellada'?",
+        "opciones": ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Claude Monet"],
+        "respuesta_correcta": "Vincent van Gogh"
+      },
+      {
+        "pregunta": "¿Cuál es el país más pequeño del mundo en términos de territorio?",
+        "opciones": ["Mónaco", "San Marino", "Nauru", "Vaticano"],
+        "respuesta_correcta": "Vaticano"
+      },
+      {
+        "pregunta": "¿Qué elemento químico tiene el símbolo 'H' en la tabla periódica?",
+        "opciones": ["Helio", "Hidrógeno", "Hierro", "Plomo"],
+        "respuesta_correcta": "Hidrógeno"
+      },
+      {
+        "pregunta": "¿Quién escribió 'Cien años de soledad'?",
+        "opciones": ["Julio Cortázar", "Mario Vargas Llosa", "Gabriel García Márquez", "Pablo Neruda"],
+        "respuesta_correcta": "Gabriel García Márquez"
+      },
+      {
+        "pregunta": "¿En qué año se inauguró la Torre Eiffel en París?",
+        "opciones": ["1889", "1899", "1909", "1919"],
+        "respuesta_correcta": "1889"
+      },
+      {
+        "pregunta": "¿Cuál es la moneda oficial de Japón?",
+        "opciones": ["Won", "Yuan", "Yen", "Ringgit"],
+        "respuesta_correcta": "Yen"
+      },
+      {
+        "pregunta": "¿Cuál es el metal líquido a temperatura ambiente?",
+        "opciones": ["Plomo", "Mercurio", "Aluminio", "Cobre"],
+        "respuesta_correcta": "Mercurio"
+      },
+      {
+        "pregunta": "¿Quién fue el pintor del famoso cuadro 'Guernica'?",
+        "opciones": ["Pablo Picasso", "Vincent van Gogh", "Salvador Dalí", "Claude Monet"],
+        "respuesta_correcta": "Pablo Picasso"
+      },
+      {
+        "pregunta": "¿Cuál es el elemento químico más abundante en el universo?",
+        "opciones": ["Oxígeno", "Helio", "Hidrógeno", "Carbono"],
+        "respuesta_correcta": "Hidrógeno"
+      },
+      {
+        "pregunta": "¿Quién escribió 'El Principito'?",
+        "opciones": ["Antoine de Saint-Exupéry", "J.K. Rowling", "Mark Twain", "F. Scott Fitzgerald"],
+        "respuesta_correcta": "Antoine de Saint-Exupéry"
+      },
+      {
+        "pregunta": "¿Cuál es el país más grande de América del Sur?",
+        "opciones": ["Argentina", "Brasil", "Perú", "Colombia"],
+        "respuesta_correcta": "Brasil"
+      },
+      {
+        "pregunta": "¿En qué año se firmó la Declaración de Independencia de Estados Unidos?",
+        "opciones": ["1774", "1776", "1781", "1789"],
+        "respuesta_correcta": "1776"
+      },
+      {
+        "pregunta": "¿Cuál es el metal que se encuentra en estado líquido a temperatura ambiente?",
+        "opciones": ["Hierro", "Cobre", "Mercurio", "Aluminio"],
+        "respuesta_correcta": "Mercurio"
+      },
+      {
+        "pregunta": "¿Quién fue el primer presidente de Sudáfrica elegido democráticamente?",
+        "opciones": ["Nelson Mandela", "Thabo Mbeki", "Jacob Zuma", "F.W. de Klerk"],
+        "respuesta_correcta": "Nelson Mandela"
+      },
+      {
+        "pregunta": "¿Cuál es el río más largo del mundo?",
+        "opciones": ["Amazonas", "Nilo", "Misisipi", "Yangtsé"],
+        "respuesta_correcta": "Amazonas"
+      },
+      {
+        "pregunta": "¿En qué año se celebró la primera Copa Mundial de Fútbol?",
+        "opciones": ["1930", "1928", "1934", "1936"],
+        "respuesta_correcta": "1930"
+      },
+      {
+        "pregunta": "¿Quién pintó la famosa pintura 'La Noche Estrellada'?",
+        "opciones": ["Vincent van Gogh", "Pablo Picasso", "Claude Monet", "Salvador Dalí"],
+        "respuesta_correcta": "Vincent van Gogh"
+      },
+      {
+        "pregunta": "¿Cuál es el país más poblado del mundo?",
+        "opciones": ["India", "Estados Unidos", "Rusia", "China"],
+        "respuesta_correcta": "China"
+      },
+      {
+        "pregunta": "¿Qué científico desarrolló la teoría de la evolución por selección natural?",
+        "opciones": ["Isaac Newton", "Albert Einstein", "Charles Darwin", "Marie Curie"],
+        "respuesta_correcta": "Charles Darwin"
+      },
+      {
+        "pregunta": "¿Cuál es el instrumento musical de viento más antiguo?",
+        "opciones": ["Flauta", "Trompeta", "Oboe", "Clarinete"],
+        "respuesta_correcta": "Flauta"
+      },
+      {
+        "pregunta": "¿En qué año se llevó a cabo la Revolución Rusa?",
+        "opciones": ["1917", "1921", "1905", "1930"],
+        "respuesta_correcta": "1917"
+      },
+      {
+        "pregunta": "¿Cuál es el gas que las plantas absorben durante la fotosíntesis?",
+        "opciones": ["Oxígeno", "Nitrógeno", "Dióxido de carbono", "Hidrógeno"],
+        "respuesta_correcta": "Dióxido de carbono"
+      },
+      {
+        "pregunta": "¿En qué año se inauguró la Gran Muralla China?",
+        "opciones": ["221 a.C.", "206 a.C.", "210 a.C.", "196 a.C."],
+        "respuesta_correcta": "206 a.C."
+      },
+      {
+        "pregunta": "¿Cuál es el metal más denso?",
+        "opciones": ["Plomo", "Oro", "Mercurio", "Platino"],
+        "respuesta_correcta": "Oro"
+      },
+      {
+        "pregunta": "¿Quién fue el líder político y espiritual de la India durante el movimiento de independencia?",
+        "opciones": ["Mahatma Gandhi", "Nehru", "Bhagat Singh", "Subhas Chandra Bose"],
+        "respuesta_correcta": "Mahatma Gandhi"
+      },
+      {
+        "pregunta": "¿En qué año se fundó la Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura (UNESCO)?",
+        "opciones": ["1943", "1945", "1947", "1950"],
+        "respuesta_correcta": "1945"
+      },
+      {
+        "pregunta": "¿Quién escribió la obra 'Don Quijote de la Mancha'?",
+        "opciones": ["Miguel de Cervantes", "William Shakespeare", "Friedrich Nietzsche", "Leo Tolstoy"],
+        "respuesta_correcta": "Miguel de Cervantes"
+      },
+      {
+        "pregunta": "¿Cuál es el país más pequeño del mundo por área terrestre?",
+        "opciones": ["Nauru", "Mónaco", "San Marino", "Vaticano"],
+        "respuesta_correcta": "Vaticano"
+      },
+      {
+        "pregunta": "¿En qué año se firmó la Declaración de Derechos Humanos de las Naciones Unidas?",
+        "opciones": ["1945", "1948", "1951", "1955"],
+        "respuesta_correcta": "1948"
+      },
+      {
+        "pregunta": "¿Cuál es el gas que las plantas liberan durante la fotosíntesis?",
+        "opciones": ["Oxígeno", "Nitrógeno", "Dióxido de carbono", "Hidrógeno"],
+        "respuesta_correcta": "Oxígeno"
+      },
+      {
+        "pregunta": "¿Quién fue el famoso explorador portugués que dio la primera vuelta al mundo?",
+        "opciones": ["Vasco da Gama", "Fernão de Magalhães (Magallanes)", "Cristóbal Colón", "Juan de la Cosa"],
+        "respuesta_correcta": "Fernão de Magalhães (Magallanes)"
+      },
+      {
+        "pregunta": "¿Cuál es el metal que tiene el símbolo 'Ag' en la tabla periódica?",
+        "opciones": ["Oro", "Plata", "Cobre", "Hierro"],
+        "respuesta_correcta": "Plata"
+      },
+      {
+        "pregunta": "¿Cuál es el océano más grande del mundo por área?",
+        "opciones": ["Océano Atlántico", "Océano Índico", "Océano Antártico", "Océano Pacífico"],
+        "respuesta_correcta": "Océano Pacífico"
+      },
+      {
+        "pregunta": "¿Quién fue el autor de la famosa obra '1984'?",
+        "opciones": ["Aldous Huxley", "George Orwell", "Ray Bradbury", "H.G. Wells"],
+        "respuesta_correcta": "George Orwell"
+      }
+    ]
+  }

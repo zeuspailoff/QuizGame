@@ -1,0 +1,223 @@
+[
+    {
+      "pregunta": "¿Quién es el director de la película 'Pulp Fiction'?",
+      "opciones": ["Quentin Tarantino", "Martin Scorsese", "Steven Spielberg", "Christopher Nolan"],
+      "respuesta_correcta": "Quentin Tarantino"
+    },
+    {
+      "pregunta": "¿En qué año se estrenó la película 'El Padrino'?",
+      "opciones": ["1972", "1974", "1976", "1978"],
+      "respuesta_correcta": "1972"
+    },
+    {
+      "pregunta": "¿Cuál es la película animada de Disney número 50?",
+      "opciones": ["El Rey León", "La Bella y la Bestia", "Tangled", "Frozen"],
+      "respuesta_correcta": "Tangled"
+    },
+    {
+      "pregunta": "¿Qué actor interpretó a Iron Man en el Universo Cinematográfico de Marvel?",
+      "opciones": ["Chris Hemsworth", "Mark Ruffalo", "Robert Downey Jr.", "Chris Evans"],
+      "respuesta_correcta": "Robert Downey Jr."
+    },
+    {
+      "pregunta": "¿En qué película aparece el personaje Jack Dawson interpretado por Leonardo DiCaprio?",
+      "opciones": ["Titanic", "Inception", "The Revenant", "Django Unchained"],
+      "respuesta_correcta": "Titanic"
+    },
+    {
+      "pregunta": "¿Cuál es la película ganadora del Oscar a la Mejor Película en 2020?",
+      "opciones": ["1917", "Parasite", "Joker", "Once Upon a Time in Hollywood"],
+      "respuesta_correcta": "Parasite"
+    },
+    {
+      "pregunta": "¿Quién dirigió la trilogía original de 'Star Wars'?",
+      "opciones": ["Steven Spielberg", "George Lucas", "James Cameron", "Peter Jackson"],
+      "respuesta_correcta": "George Lucas"
+    },
+    {
+      "pregunta": "¿Cuál es la película más taquillera de todos los tiempos?",
+      "opciones": ["Avengers: Endgame", "Avatar", "Titanic", "Star Wars: El despertar de la fuerza"],
+      "respuesta_correcta": "Avatar"
+    },
+    {
+      "pregunta": "¿Qué actor interpretó a Neo en 'The Matrix'?",
+      "opciones": ["Keanu Reeves", "Brad Pitt", "Will Smith", "Tom Cruise"],
+      "respuesta_correcta": "Keanu Reeves"
+    },
+    {
+      "pregunta": "¿En qué película aparece el famoso personaje Hannibal Lecter?",
+      "opciones": ["The Silence of the Lambs", "Se7en", "American Psycho", "Zodiac"],
+      "respuesta_correcta": "The Silence of the Lambs"
+    },
+    {
+      "pregunta": "¿Qué actor interpreta a Batman en 'The Dark Knight'?",
+      "opciones": ["Christian Bale", "Ben Affleck", "Michael Keaton", "Val Kilmer"],
+      "respuesta_correcta": "Christian Bale"
+    },
+    {
+      "pregunta": "¿En qué película aparece el famoso letrero 'Welcome to Jurassic Park'?",
+      "opciones": ["Jurassic Park", "Jurassic World", "The Lost World: Jurassic Park", "Jurassic Park III"],
+      "respuesta_correcta": "Jurassic Park"
+    },
+    {
+      "pregunta": "¿Cuál es la película de animación japonesa más famosa dirigida por Hayao Miyazaki?",
+      "opciones": ["My Neighbor Totoro", "Spirited Away", "Princess Mononoke", "Howl's Moving Castle"],
+      "respuesta_correcta": "Spirited Away"
+    },
+    {
+      "pregunta": "¿En qué película Quentin Tarantino interpreta a un personaje llamado Mr. Blonde?",
+      "opciones": ["Pulp Fiction", "Reservoir Dogs", "Kill Bill", "Django Unchained"],
+      "respuesta_correcta": "Reservoir Dogs"
+    },
+    {
+      "pregunta": "¿Qué película ganó el premio a la Mejor Película en los Premios de la Academia en 2019?",
+      "opciones": ["Green Book", "Bohemian Rhapsody", "Black Panther", "The Favourite"],
+      "respuesta_correcta": "Green Book"
+    },
+    {
+      "pregunta": "¿Quién dirigió la trilogía de 'El Señor de los Anillos'?",
+      "opciones": ["Steven Spielberg", "Peter Jackson", "George Lucas", "Christopher Nolan"],
+      "respuesta_correcta": "Peter Jackson"
+    },
+    {
+      "pregunta": "¿Cuál es la película de ciencia ficción de 1982 dirigida por Ridley Scott sobre androides?",
+      "opciones": ["Blade Runner", "Alien", "The Terminator", "E.T. the Extra-Terrestrial"],
+      "respuesta_correcta": "Blade Runner"
+    },
+    {
+      "pregunta": "¿Qué actor interpreta a Wolverine en la franquicia de películas de X-Men?",
+      "opciones": ["Hugh Jackman", "Ryan Reynolds", "Chris Evans", "Robert Downey Jr."],
+      "respuesta_correcta": "Hugh Jackman"
+    },
+    {
+      "pregunta": "¿En qué película aparece el famoso personaje Tony Montana interpretado por Al Pacino?",
+      "opciones": ["Scarface", "The Godfather Part II", "Heat", "Carlito's Way"],
+      "respuesta_correcta": "Scarface"
+    },
+    {
+      "pregunta": "¿Qué película de Christopher Nolan trata sobre los sueños?",
+      "opciones": ["Inception", "Interstellar", "The Prestige", "Dunkirk"],
+      "respuesta_correcta": "Inception"
+    },
+    {
+      "pregunta": "¿Quién es el director de la película 'The Shawshank Redemption'?",
+      "opciones": ["Martin Scorsese", "Quentin Tarantino", "Frank Darabont", "David Fincher"],
+      "respuesta_correcta": "Frank Darabont"
+    },
+    {
+      "pregunta": "¿En qué película aparece el famoso letrero 'Heeeeeere's Johnny!'?",
+      "opciones": ["Psycho", "The Shining", "A Clockwork Orange", "Rosemary's Baby"],
+      "respuesta_correcta": "The Shining"
+    },
+    {
+      "pregunta": "¿Cuál es la película de superhéroes que reúne a Iron Man, Capitán América, Thor y Hulk por primera vez?",
+      "opciones": ["Avengers: Endgame", "Avengers: Age of Ultron", "The Avengers", "Captain America: Civil War"],
+      "respuesta_correcta": "The Avengers"
+    },
+    {
+      "pregunta": "¿En qué película aparece el famoso personaje Norman Bates?",
+      "opciones": ["Psycho", "The Silence of the Lambs", "Halloween", "Scream"],
+      "respuesta_correcta": "Psycho"
+    },
+    {
+      "pregunta": "¿Cuál es la película de ciencia ficción de 1999 sobre la realidad simulada?",
+      "opciones": ["The Matrix", "Inception", "Blade Runner", "The Truman Show"],
+      "respuesta_correcta": "The Matrix"
+    },
+    {
+      "pregunta": "¿Quién interpretó a Joker en la película de 2019?",
+      "opciones": ["Joaquin Phoenix", "Heath Ledger", "Jack Nicholson", "Jared Leto"],
+      "respuesta_correcta": "Joaquin Phoenix"
+    },
+    {
+      "pregunta": "¿En qué película aparece el famoso personaje de ciencia ficción HAL 9000?",
+      "opciones": ["2001: A Space Odyssey", "Blade Runner", "Star Wars", "The Terminator"],
+      "respuesta_correcta": "2001: A Space Odyssey"
+    },
+    {
+      "pregunta": "¿Quién es el director de la película 'Fight Club'?",
+      "opciones": ["Christopher Nolan", "David Fincher", "Quentin Tarantino", "Martin Scorsese"],
+      "respuesta_correcta": "David Fincher"
+    },
+    {
+      "pregunta": "¿En qué película aparece el personaje de Hannibal Lecter por primera vez?",
+      "opciones": ["The Silence of the Lambs", "Red Dragon", "Hannibal", "Manhunter"],
+      "respuesta_correcta": "Manhunter"
+    },
+    {
+      "pregunta": "¿Cuál es la película de Pixar sobre un ratón chef?",
+      "opciones": ["Ratatouille", "Finding Nemo", "Up", "Toy Story"],
+      "respuesta_correcta": "Ratatouille"
+    },
+    {
+      "pregunta": "¿En qué película aparece el famoso personaje James Bond interpretado por Daniel Craig por primera vez?",
+      "opciones": ["Casino Royale", "Quantum of Solace", "Skyfall", "Spectre"],
+      "respuesta_correcta": "Casino Royale"
+    },
+    {
+      "pregunta": "¿Cuál es la película de ciencia ficción de 1984 dirigida por James Cameron sobre un cyborg asesino?",
+      "opciones": ["RoboCop", "The Terminator", "Blade Runner", "Aliens"],
+      "respuesta_correcta": "The Terminator"
+    },
+    {
+      "pregunta": "¿Qué película de Stanley Kubrick trata sobre la Guerra Fría y la amenaza nuclear?",
+      "opciones": ["Paths of Glory", "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb", "A Clockwork Orange", "2001: A Space Odyssey"],
+      "respuesta_correcta": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb"
+    },
+    {
+      "pregunta": "¿En qué película aparece el famoso personaje Tony Stark interpretado por Robert Downey Jr.?",
+      "opciones": ["Iron Man", "Avengers: Endgame", "Captain America: Civil War", "The Avengers"],
+      "respuesta_correcta": "Iron Man"
+    },
+    {
+      "pregunta": "¿Cuál es la película de ciencia ficción de 1977 dirigida por George Lucas que dio inicio a la saga 'Star Wars'?",
+      "opciones": ["Star Wars: Episode IV - A New Hope", "Star Wars: Episode V - The Empire Strikes Back", "Star Wars: Episode VI - Return of the Jedi", "Star Wars: Episode I - The Phantom Menace"],
+      "respuesta_correcta": "Star Wars: Episode IV - A New Hope"
+    },
+    {
+      "pregunta": "¿Quién es el director de la película 'The Godfather'?",
+      "opciones": ["Francis Ford Coppola", "Martin Scorsese", "Steven Spielberg", "Alfred Hitchcock"],
+      "respuesta_correcta": "Francis Ford Coppola"
+    },
+    {
+      "pregunta": "¿En qué película aparece el famoso personaje de ciencia ficción Deckard?",
+      "opciones": ["Blade Runner", "The Fifth Element", "A.I. Artificial Intelligence", "Ex Machina"],
+      "respuesta_correcta": "Blade Runner"
+    },
+    {
+      "pregunta": "¿Cuál es la película de animación de Disney sobre un león joven que se convierte en rey?",
+      "opciones": ["The Lion King", "Aladdin", "Beauty and the Beast", "Mulan"],
+      "respuesta_correcta": "The Lion King"
+    },
+    {
+      "pregunta": "¿En qué película aparece el personaje de ciencia ficción Ripley interpretado por Sigourney Weaver?",
+      "opciones": ["Alien", "Aliens", "Alien 3", "Alien: Resurrection"],
+      "respuesta_correcta": "Alien"
+    },
+    {
+      "pregunta": "¿Qué película ganó el premio a la Mejor Película en los Premios de la Academia en 2021?",
+      "opciones": ["Nomadland", "The Trial of the Chicago 7", "Minari", "Promising Young Woman"],
+      "respuesta_correcta": "Nomadland"
+    },
+    {
+      "pregunta": "¿En qué película aparece el famoso personaje de ciencia ficción E.T.?",
+      "opciones": ["E.T. the Extra-Terrestrial", "Close Encounters of the Third Kind", "War of the Worlds", "Starman"],
+      "respuesta_correcta": "E.T. the Extra-Terrestrial"
+    },
+    {
+      "pregunta": "¿Quién es el director de la película 'Schindler's List'?",
+      "opciones": ["Steven Spielberg", "Quentin Tarantino", "Martin Scorsese", "Roman Polanski"],
+      "respuesta_correcta": "Steven Spielberg"
+    },
+    {
+      "pregunta": "¿En qué película aparece el famoso personaje de ciencia ficción Wall-E?",
+      "opciones": ["Wall-E", "Interstellar", "Moon", "Gravity"],
+      "respuesta_correcta": "Wall-E"
+    },
+    {
+      "pregunta": "¿Cuál es la película de animación japonesa sobre una niña que se encuentra con espíritus en un bosque?",
+      "opciones": ["My Neighbor Totoro", "Spirited Away", "Princess Mononoke", "Howl's Moving Castle"],
+      "respuesta_correcta": "My Neighbor Totoro"
+    }
+  ]
+  

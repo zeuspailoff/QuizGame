@@ -1,0 +1,434 @@
+{
+    "preguntas": [
+    {
+        "pregunta": "¿Quién es conocido como el Rey del Pop?",
+        "opciones": ["Michael Jackson", "Elvis Presley", "Madonna", "Prince"],
+        "respuesta_correcta": "Michael Jackson"
+    },
+    {
+        "pregunta": "¿Cuál es el álbum más vendido de todos los tiempos?",
+        "opciones": ["Thriller - Michael Jackson", "The Dark Side of the Moon - Pink Floyd", "Back in Black - AC/DC", "Abbey Road - The Beatles"],
+        "respuesta_correcta": "Thriller - Michael Jackson"
+    },
+    {
+        "pregunta": "¿Quién es el guitarrista principal de la banda Queen?",
+        "opciones": ["Freddie Mercury", "John Deacon", "Brian May", "Roger Taylor"],
+        "respuesta_correcta": "Brian May"
+    },
+    {
+        "pregunta": "¿Cuál de estas canciones es de los Beatles?",
+        "opciones": ["Bohemian Rhapsody", "Hey Jude", "Stairway to Heaven", "Imagine"],
+        "respuesta_correcta": "Hey Jude"
+    },
+    {
+        "pregunta": "¿Qué banda británica se llama como un insecto?",
+        "opciones": ["The Rolling Stones", "The Beatles", "Radiohead", "The Bee Gees"],
+        "respuesta_correcta": "The Beatles"
+    },
+    {
+        "pregunta": "¿Quién es la voz detrás de 'Hello'?",
+        "opciones": ["Adele", "Beyoncé", "Taylor Swift", "Rihanna"],
+        "respuesta_correcta": "Adele"
+    },
+    {
+        "pregunta": "¿Cuál es el género musical principal de la banda Metallica?",
+        "opciones": ["Heavy Metal", "Punk Rock", "Grunge", "Pop"],
+        "respuesta_correcta": "Heavy Metal"
+    },
+    {
+        "pregunta": "¿Qué instrumento tocaba Jimi Hendrix?",
+        "opciones": ["Guitarra", "Batería", "Bajo", "Teclado"],
+        "respuesta_correcta": "Guitarra"
+    },
+    {
+        "pregunta": "¿Cuál es el nombre completo de la cantante conocida como Rihanna?",
+        "opciones": ["Robyn Rihanna Fenty", "Beyoncé Knowles", "Alicia Augello-Cook", "Katy Perry"],
+        "respuesta_correcta": "Robyn Rihanna Fenty"
+    },
+    {
+        "pregunta": "¿Qué famoso cantante murió en 2016 y era conocido por su estilo andrógino?",
+        "opciones": ["David Bowie", "Prince", "George Michael", "Elvis Presley"],
+        "respuesta_correcta": "Prince"
+    },
+    {
+        "pregunta": "¿Cuál de estas canciones es de Bob Marley?",
+        "opciones": ["Hotel California", "No Woman, No Cry", "Bohemian Rhapsody", "Imagine"],
+        "respuesta_correcta": "No Woman, No Cry"
+    },
+    {
+        "pregunta": "¿Cuál es el nombre de la legendaria banda de rock liderada por Mick Jagger?",
+        "opciones": ["The Rolling Stones", "The Beatles", "Led Zeppelin", "Pink Floyd"],
+        "respuesta_correcta": "The Rolling Stones"
+    },
+    {
+        "pregunta": "¿Quién es conocido como el Príncipe de la Canción en México?",
+        "opciones": ["Luis Miguel", "Juan Gabriel", "Vicente Fernández", "Alejandro Fernández"],
+        "respuesta_correcta": "Luis Miguel"
+    },
+    {
+        "pregunta": "¿Qué famoso músico y compositor fue apodado 'El Rey del Rock'?",
+        "opciones": ["Elvis Presley", "Buddy Holly", "Chuck Berry", "Johnny Cash"],
+        "respuesta_correcta": "Elvis Presley"
+    },
+    {
+        "pregunta": "¿Cuál es el álbum más vendido de los Beatles?",
+        "opciones": ["Abbey Road", "Sgt. Pepper's Lonely Hearts Club Band", "The White Album", "Revolver"],
+        "respuesta_correcta": "Sgt. Pepper's Lonely Hearts Club Band"
+    },
+    {
+        "pregunta": "¿Qué banda liderada por Freddie Mercury es famosa por su espectacular actuación en el concierto de Live Aid en 1985?",
+        "opciones": ["Queen", "Led Zeppelin", "Pink Floyd", "The Rolling Stones"],
+        "respuesta_correcta": "Queen"
+    },
+    {
+        "pregunta": "¿Cuál es el nombre del guitarrista legendario que tocó con Eric Clapton en Cream y con The Yardbirds?",
+        "opciones": ["Jimi Hendrix", "Jimmy Page", "Jeff Beck", "George Harrison"],
+        "respuesta_correcta": "Jimmy Page"
+    },
+    {
+        "pregunta": "¿Qué famoso rapero fue asesinado en Las Vegas en 1996?",
+        "opciones": ["Tupac Shakur", "The Notorious B.I.G.", "Eminem", "Jay-Z"],
+        "respuesta_correcta": "Tupac Shakur"
+    },
+    {
+        "pregunta": "¿Quién es la voz detrás de 'Someone Like You'?",
+        "opciones": ["Adele", "Taylor Swift", "Beyoncé", "Rihanna"],
+        "respuesta_correcta": "Adele"
+    },
+    {
+        "pregunta": "¿Cuál de estas canciones es de Michael Jackson?",
+        "opciones": ["Like a Prayer", "Billie Jean", "Wonderwall", "Smells Like Teen Spirit"],
+        "respuesta_correcta": "Billie Jean"
+    },
+    {
+        "pregunta": "¿Qué banda británica es conocida por su álbum 'The Wall'?",
+        "opciones": ["Pink Floyd", "The Beatles", "Led Zeppelin", "Queen"],
+        "respuesta_correcta": "Pink Floyd"
+    },
+    {
+        "pregunta": "¿Cuál es el nombre real de la cantante conocida como Lady Gaga?",
+        "opciones": ["Stefani Joanne Angelina Germanotta", "Katy Perry", "Beyoncé Knowles", "Taylor Swift"],
+        "respuesta_correcta": "Stefani Joanne Angelina Germanotta"
+    },
+    {
+        "pregunta": "¿Qué famoso guitarrista murió en 1970 a los 27 años y es parte del 'Club de los 27'?",
+        "opciones": ["Jimi Hendrix", "Eric Clapton", "Jimmy Page", "Carlos Santana"],
+        "respuesta_correcta": "Jimi Hendrix"
+    },
+    {
+        "pregunta": "¿Quién es conocido como el Padrino del Soul?",
+        "opciones": ["James Brown", "Ray Charles", "Stevie Wonder", "Marvin Gaye"],
+        "respuesta_correcta": "James Brown"
+    },
+    {
+        "pregunta": "¿Cuál de estas canciones es de Nirvana?",
+        "opciones": ["Smells Like Teen Spirit", "Wonderwall", "Bohemian Rhapsody", "Hotel California"],
+        "respuesta_correcta": "Smells Like Teen Spirit"
+    },
+    {
+        "pregunta": "¿Qué famosa cantante ganó un Óscar por su papel en la película 'La La Land'?",
+        "opciones": ["Adele", "Beyoncé", "Taylor Swift", "Emma Stone"],
+        "respuesta_correcta": "Emma Stone"
+    },
+    {
+        "pregunta": "¿Cuál de estos álbumes es de la banda U2?",
+        "opciones": ["Abbey Road", "The Joshua Tree", "Dark Side of the Moon", "Thriller"],
+        "respuesta_correcta": "The Joshua Tree"
+    },
+    {
+        "pregunta": "¿Qué famosa banda de rock es conocida por su canción 'Stairway to Heaven'?",
+        "opciones": ["Led Zeppelin", "The Rolling Stones", "Pink Floyd", "The Beatles"],
+        "respuesta_correcta": "Led Zeppelin"
+    },
+    {
+        "pregunta": "¿Cuál de estas canciones es de Whitney Houston?",
+        "opciones": ["I Will Always Love You", "Bohemian Rhapsody", "Like a Prayer", "Billie Jean"],
+        "respuesta_correcta": "I Will Always Love You"
+    },
+    {
+        "pregunta": "¿Qué famoso cantante y compositor británico murió en 1991 a causa del SIDA?",
+        "opciones": ["George Michael", "Elton John", "David Bowie", "Freddie Mercury"],
+        "respuesta_correcta": "Freddie Mercury"
+    },
+    {
+        "pregunta": "¿Quién es el compositor de la famosa ópera 'La Traviata'?",
+        "opciones": ["Wolfgang Amadeus Mozart", "Ludwig van Beethoven", "Giuseppe Verdi", "Johann Sebastian Bach"],
+        "respuesta_correcta": "Giuseppe Verdi"
+    },
+    {
+        "pregunta": "¿Cuál de estas canciones es de Madonna?",
+        "opciones": ["Like a Prayer", "Smooth Criminal", "Billie Jean", "Bohemian Rhapsody"],
+        "respuesta_correcta": "Like a Prayer"
+    },
+    {
+        "pregunta": "¿Qué banda de rock es conocida por su álbum 'Rumours'?",
+        "opciones": ["Fleetwood Mac", "The Eagles", "AC/DC", "The Rolling Stones"],
+        "respuesta_correcta": "Fleetwood Mac"
+    },
+    {
+        "pregunta": "¿Quién es el famoso productor musical y colaborador de los Beatles?",
+        "opciones": ["Quincy Jones", "Phil Spector", "Rick Rubin", "Brian Eno"],
+        "respuesta_correcta": "Phil Spector"
+    },
+    {
+        "pregunta": "¿Cuál es el nombre real del rapero conocido como Eminem?",
+        "opciones": ["Marshall Bruce Mathers III", "Curtis James Jackson III", "Shawn Corey Carter", "Kanye Omari West"],
+        "respuesta_correcta": "Marshall Bruce Mathers III"
+    },
+    {
+        "pregunta": "¿Qué famosa cantante ganó un Óscar por su papel en 'Dreamgirls'?",
+        "opciones": ["Beyoncé", "Rihanna", "Jennifer Hudson", "Alicia Keys"],
+        "respuesta_correcta": "Jennifer Hudson"
+    },
+    {
+        "pregunta": "¿Cuál de estas canciones es de Prince?",
+        "opciones": ["Purple Rain", "Bohemian Rhapsody", "Like a Prayer", "Billie Jean"],
+        "respuesta_correcta": "Purple Rain"
+    },
+    {
+        "pregunta": "¿Qué famosa banda de rock es conocida por su álbum 'Black Album'?",
+        "opciones": ["Metallica", "Nirvana", "Guns N' Roses", "AC/DC"],
+        "respuesta_correcta": "Metallica"
+    },
+    {
+        "pregunta": "¿Quién es conocido como el Rey del Reggae?",
+        "opciones": ["Bob Marley", "Peter Tosh", "Jimmy Cliff", "Sean Paul"],
+        "respuesta_correcta": "Bob Marley"
+    },
+    {
+        "pregunta": "¿Cuál de estas canciones es de Michael Jackson?",
+        "opciones": ["Sweet Child o' Mine", "Billie Jean", "Like a Prayer", "Bohemian Rhapsody"],
+        "respuesta_correcta": "Billie Jean"
+    },
+    {
+        "pregunta": "¿Qué famosa banda de rock es conocida por su álbum 'OK Computer'?",
+        "opciones": ["Radiohead", "Coldplay", "Muse", "Arctic Monkeys"],
+        "respuesta_correcta": "Radiohead"
+    },
+    {
+        "pregunta": "¿Quién es el famoso compositor de la ópera 'Carmen'?",
+        "opciones": ["Wolfgang Amadeus Mozart", "Ludwig van Beethoven", "Johann Sebastian Bach", "Georges Bizet"],
+        "respuesta_correcta": "Georges Bizet"
+    },
+    {
+        "pregunta": "¿Cuál de estas canciones es de Queen?",
+        "opciones": ["Bohemian Rhapsody", "Imagine", "Like a Prayer", "Billie Jean"],
+        "respuesta_correcta": "Bohemian Rhapsody"
+    },
+    {
+        "pregunta": "¿Quién es conocido como el Rey del Pop?",
+        "opciones": ["Michael Jackson", "Elvis Presley", "Madonna", "Prince"],
+        "respuesta_correcta": "Michael Jackson"
+    },
+    {
+        "pregunta": "¿Cuál es el álbum más vendido de todos los tiempos?",
+        "opciones": ["Thriller - Michael Jackson", "The Dark Side of the Moon - Pink Floyd", "Back in Black - AC/DC", "Abbey Road - The Beatles"],
+        "respuesta_correcta": "Thriller - Michael Jackson"
+    },
+    {
+        "pregunta": "¿Quién es el guitarrista principal de la banda Queen?",
+        "opciones": ["Freddie Mercury", "John Deacon", "Brian May", "Roger Taylor"],
+        "respuesta_correcta": "Brian May"
+    },
+    {
+        "pregunta": "¿Cuál de estas canciones es de los Beatles?",
+        "opciones": ["Bohemian Rhapsody", "Hey Jude", "Stairway to Heaven", "Imagine"],
+        "respuesta_correcta": "Hey Jude"
+    },
+    {
+        "pregunta": "¿Qué banda británica se llama como un insecto?",
+        "opciones": ["The Rolling Stones", "The Beatles", "Radiohead", "The Bee Gees"],
+        "respuesta_correcta": "The Beatles"
+    },
+    {
+        "pregunta": "¿Quién es la voz detrás de 'Hello'?",
+        "opciones": ["Adele", "Beyoncé", "Taylor Swift", "Rihanna"],
+        "respuesta_correcta": "Adele"
+    },
+    {
+        "pregunta": "¿Cuál es el género musical principal de la banda Metallica?",
+        "opciones": ["Heavy Metal", "Punk Rock", "Grunge", "Pop"],
+        "respuesta_correcta": "Heavy Metal"
+    },
+    {
+        "pregunta": "¿Qué instrumento tocaba Jimi Hendrix?",
+        "opciones": ["Guitarra", "Batería", "Bajo", "Teclado"],
+        "respuesta_correcta": "Guitarra"
+    },
+    {
+        "pregunta": "¿Cuál es el nombre completo de la cantante conocida como Rihanna?",
+        "opciones": ["Robyn Rihanna Fenty", "Beyoncé Knowles", "Alicia Augello-Cook", "Katy Perry"],
+        "respuesta_correcta": "Robyn Rihanna Fenty"
+    },
+    {
+        "pregunta": "¿Qué famoso cantante murió en 2016 y era conocido por su estilo andrógino?",
+        "opciones": ["David Bowie", "Prince", "George Michael", "Elvis Presley"],
+        "respuesta_correcta": "Prince"
+    },
+    {
+        "pregunta": "¿Cuál de estas canciones es de Bob Marley?",
+        "opciones": ["Hotel California", "No Woman, No Cry", "Bohemian Rhapsody", "Imagine"],
+        "respuesta_correcta": "No Woman, No Cry"
+    },
+    {
+        "pregunta": "¿Cuál es el nombre de la legendaria banda de rock liderada por Mick Jagger?",
+        "opciones": ["The Rolling Stones", "The Beatles", "Led Zeppelin", "Pink Floyd"],
+        "respuesta_correcta": "The Rolling Stones"
+    },
+    {
+        "pregunta": "¿Quién es conocido como el Príncipe de la Canción en México?",
+        "opciones": ["Luis Miguel", "Juan Gabriel", "Vicente Fernández", "Alejandro Fernández"],
+        "respuesta_correcta": "Luis Miguel"
+    },
+    {
+        "pregunta": "¿Qué famoso músico y compositor fue apodado 'El Rey del Rock'?",
+        "opciones": ["Elvis Presley", "Buddy Holly", "Chuck Berry", "Johnny Cash"],
+        "respuesta_correcta": "Elvis Presley"
+    },
+    {
+        "pregunta": "¿Cuál es el álbum más vendido de los Beatles?",
+        "opciones": ["Abbey Road", "Sgt. Pepper's Lonely Hearts Club Band", "The White Album", "Revolver"],
+        "respuesta_correcta": "Sgt. Pepper's Lonely Hearts Club Band"
+    },
+    {
+        "pregunta": "¿Qué banda liderada por Freddie Mercury es famosa por su espectacular actuación en el concierto de Live Aid en 1985?",
+        "opciones": ["Queen", "Led Zeppelin", "Pink Floyd", "The Rolling Stones"],
+        "respuesta_correcta": "Queen"
+    },
+    {
+        "pregunta": "¿Cuál es el nombre del guitarrista legendario que tocó con Eric Clapton en Cream y con The Yardbirds?",
+        "opciones": ["Jimi Hendrix", "Jimmy Page", "Jeff Beck", "George Harrison"],
+        "respuesta_correcta": "Jimmy Page"
+    },
+    {
+        "pregunta": "¿Qué famoso rapero fue asesinado en Las Vegas en 1996?",
+        "opciones": ["Tupac Shakur", "The Notorious B.I.G.", "Eminem", "Jay-Z"],
+        "respuesta_correcta": "Tupac Shakur"
+    },
+    {
+        "pregunta": "¿Quién es la voz detrás de 'Someone Like You'?",
+        "opciones": ["Adele", "Taylor Swift", "Beyoncé", "Rihanna"],
+        "respuesta_correcta": "Adele"
+    },
+    {
+        "pregunta": "¿Cuál de estas canciones es de Michael Jackson?",
+        "opciones": ["Like a Prayer", "Billie Jean", "Wonderwall", "Smells Like Teen Spirit"],
+        "respuesta_correcta": "Billie Jean"
+    },
+    {
+        "pregunta": "¿Qué banda británica es conocida por su álbum 'The Wall'?",
+        "opciones": ["Pink Floyd", "The Beatles", "Led Zeppelin", "Queen"],
+        "respuesta_correcta": "Pink Floyd"
+    },
+    {
+        "pregunta": "¿Cuál es el nombre real de la cantante conocida como Lady Gaga?",
+        "opciones": ["Stefani Joanne Angelina Germanotta", "Katy Perry", "Beyoncé Knowles", "Taylor Swift"],
+        "respuesta_correcta": "Stefani Joanne Angelina Germanotta"
+    },
+    {
+        "pregunta": "¿Qué famoso guitarrista murió en 1970 a los 27 años y es parte del 'Club de los 27'?",
+        "opciones": ["Jimi Hendrix", "Eric Clapton", "Jimmy Page", "Carlos Santana"],
+        "respuesta_correcta": "Jimi Hendrix"
+    },
+    {
+        "pregunta": "¿Quién es conocido como el Padrino del Soul?",
+        "opciones": ["James Brown", "Ray Charles", "Stevie Wonder", "Marvin Gaye"],
+        "respuesta_correcta": "James Brown"
+    },
+    {
+        "pregunta": "¿Cuál de estas canciones es de Nirvana?",
+        "opciones": ["Smells Like Teen Spirit", "Wonderwall", "Bohemian Rhapsody", "Hotel California"],
+        "respuesta_correcta": "Smells Like Teen Spirit"
+    },
+    {
+        "pregunta": "¿Qué famosa cantante ganó un Óscar por su papel en la película 'La La Land'?",
+        "opciones": ["Adele", "Beyoncé", "Taylor Swift", "Emma Stone"],
+        "respuesta_correcta": "Emma Stone"
+    },
+    {
+        "pregunta": "¿Cuál de estos álbumes es de la banda U2?",
+        "opciones": ["Abbey Road", "The Joshua Tree", "Dark Side of the Moon", "Thriller"],
+        "respuesta_correcta": "The Joshua Tree"
+    },
+    {
+        "pregunta": "¿Qué famosa banda de rock es conocida por su canción 'Stairway to Heaven'?",
+        "opciones": ["Led Zeppelin", "The Rolling Stones", "Pink Floyd", "The Beatles"],
+        "respuesta_correcta": "Led Zeppelin"
+    },
+    {
+        "pregunta": "¿Cuál de estas canciones es de Whitney Houston?",
+        "opciones": ["I Will Always Love You", "Bohemian Rhapsody", "Like a Prayer", "Billie Jean"],
+        "respuesta_correcta": "I Will Always Love You"
+    },
+    {
+        "pregunta": "¿Qué famoso cantante y compositor británico murió en 1991 a causa del SIDA?",
+        "opciones": ["George Michael", "Elton John", "David Bowie", "Freddie Mercury"],
+        "respuesta_correcta": "Freddie Mercury"
+    },
+    {
+        "pregunta": "¿Quién es el compositor de la famosa ópera 'La Traviata'?",
+        "opciones": ["Wolfgang Amadeus Mozart", "Ludwig van Beethoven", "Giuseppe Verdi", "Johann Sebastian Bach"],
+        "respuesta_correcta": "Giuseppe Verdi"
+    },
+    {
+        "pregunta": "¿Cuál de estas canciones es de Madonna?",
+        "opciones": ["Like a Prayer", "Smooth Criminal", "Billie Jean", "Bohemian Rhapsody"],
+        "respuesta_correcta": "Like a Prayer"
+    },
+    {
+        "pregunta": "¿Qué banda de rock es conocida por su álbum 'Rumours'?",
+        "opciones": ["Fleetwood Mac", "The Eagles", "AC/DC", "The Rolling Stones"],
+        "respuesta_correcta": "Fleetwood Mac"
+    },
+    {
+        "pregunta": "¿Quién es el famoso productor musical y colaborador de los Beatles?",
+        "opciones": ["Quincy Jones", "Phil Spector", "Rick Rubin", "Brian Eno"],
+        "respuesta_correcta": "Phil Spector"
+    },
+    {
+        "pregunta": "¿Cuál es el nombre real del rapero conocido como Eminem?",
+        "opciones": ["Marshall Bruce Mathers III", "Curtis James Jackson III", "Shawn Corey Carter", "Kanye Omari West"],
+        "respuesta_correcta": "Marshall Bruce Mathers III"
+    },
+    {
+        "pregunta": "¿Qué famosa cantante ganó un Óscar por su papel en 'Dreamgirls'?",
+        "opciones": ["Beyoncé", "Rihanna", "Jennifer Hudson", "Alicia Keys"],
+        "respuesta_correcta": "Jennifer Hudson"
+    },
+    {
+        "pregunta": "¿Cuál de estas canciones es de Prince?",
+        "opciones": ["Purple Rain", "Bohemian Rhapsody", "Like a Prayer", "Billie Jean"],
+        "respuesta_correcta": "Purple Rain"
+    },
+    {
+        "pregunta": "¿Qué famosa banda de rock es conocida por su álbum 'Black Album'?",
+        "opciones": ["Metallica", "Nirvana", "Guns N' Roses", "AC/DC"],
+        "respuesta_correcta": "Metallica"
+    },
+    {
+        "pregunta": "¿Quién es conocido como el Rey del Reggae?",
+        "opciones": ["Bob Marley", "Peter Tosh", "Jimmy Cliff", "Sean Paul"],
+        "respuesta_correcta": "Bob Marley"
+    },
+    {
+        "pregunta": "¿Cuál de estas canciones es de Michael Jackson?",
+        "opciones": ["Sweet Child o' Mine", "Billie Jean", "Like a Prayer", "Bohemian Rhapsody"],
+        "respuesta_correcta": "Billie Jean"
+    },
+    {
+        "pregunta": "¿Qué famosa banda de rock es conocida por su álbum 'OK Computer'?",
+        "opciones": ["Radiohead", "Coldplay", "Muse", "Arctic Monkeys"],
+        "respuesta_correcta": "Radiohead"
+    },
+    {
+        "pregunta": "¿Quién es el famoso compositor de la ópera 'Carmen'?",
+        "opciones": ["Wolfgang Amadeus Mozart", "Ludwig van Beethoven", "Johann Sebastian Bach", "Georges Bizet"],
+        "respuesta_correcta": "Georges Bizet"
+    },
+    {
+        "pregunta": "¿Cuál de estas canciones es de Queen?",
+        "opciones": ["Bohemian Rhapsody", "Imagine", "Like a Prayer", "Billie Jean"],
+        "respuesta_correcta": "Bohemian Rhapsody"
+    }
+]
+}
