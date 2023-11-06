@@ -147,7 +147,7 @@ const checkAnswer = (e) => {
 }
 // si terminamos con el array de preguntas se acaba el juego y mosatramos el mensaje 
 const finalGame = () => {
-  if(numPregunta === 5){
+  if(numPregunta === 6){
 
     const buttonE = document.querySelector('.boton-enviar-respuestas')
     const start = document.querySelector('.Form-bajo')
